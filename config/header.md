@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome projects. Updated weekly.</strong>
+    <strong>🏆&nbsp; Everything thumbor, awesomely curated & updated weekly.</strong>
 </p>
 
 <p align="center">
@@ -15,6 +15,8 @@
     <a href="https://github.com/thumbor/awesome-thumbor/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/thumbor/awesome-thumbor?color=green&label=updated"></a>
 </p>
 
-This curated list contains {project_count} awesome open-source projects with a total of {stars_count} stars grouped into {category_count} categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/thumbor/awesome-thumbor/issues/new/choose), submit a [pull request](https://github.com/thumbor/awesome-thumbor/pulls), or directly edit the [projects.yaml](https://github.com/thumbor/awesome-thumbor/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains {project_count} awesome open-source extensions to thumbor with a totat of ⭐{stars_count} stars. 
 
-> 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+Projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
+
+If you like to add or update projects, feel free to open an [issue](https://github.com/thumbor/awesome-thumbor/issues/new/choose), submit a [pull request](https://github.com/thumbor/awesome-thumbor/pulls), or directly edit the [projects.yaml](https://github.com/thumbor/awesome-thumbor/edit/main/projects.yaml). Contributions are very welcome!

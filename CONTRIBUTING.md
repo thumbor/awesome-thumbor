@@ -24,12 +24,12 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
 - Please make sure that the project was not already added or suggested to this best-of list. You can ensure this by searching the projects.yaml, the Readme, and the issue list.
 - Add the project to the `projects.yaml` and never to the `README.md` file directly. Use the yaml format and the properties documented in the [project properties](#project-properties) section below to add a new project, for example:
     ```yaml
-    - name: Tensorflow
-      github_id: tensorflow/tensorflow
-      pypi_id: tensorflow
-      conda_id: tensorflow
-      labels: ["tensorflow"]
-      category: ml-frameworks
+    - name: Thumbor
+      github_id: thumbor/thumbor
+      pypi_id: thumbor
+      conda_id: thumbor
+      labels: ["thumbor"]
+      category: imaging-servers
     ```
 - Please create an individual issue or pull request for each project.
 - Please use the following title format for the issue or pull request: `Add project: project-name`.
@@ -108,10 +108,6 @@ If you like to contribute to or share suggestions regarding the project metadata
 ## Improve markdown generation
 
 If you like to contribute to or share suggestions regarding the markdown generation, please refer to the [best-of-generator](https://github.com/best-of-lists/best-of-generator) repository.
-
-## Create your own best-of list
-
-If you want to create your own best-of list, we strongly recommend to follow [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md). With this guide, it will only take about 3 minutes to get you started. It is already set-up to automatically run the best-of generator via our Github Action and includes other useful template files.
 
 ## Code of Conduct
 

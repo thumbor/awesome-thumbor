@@ -1,19 +1,131 @@
+---
 configuration:
-  markdown_header_file: "config/header.md"
-  markdown_footer_file: "config/footer.md"
+  markdown_header_file: config/header.md
+  markdown_footer_file: config/footer.md
+  min_projectrank: 2
+  min_stars: 0
 
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+  - category: core
+    title: Core Thumbor Projects
+    subtitle: This category features the main projects in thumbor's org.
+
+  - category: storage-and-result-storage
+    title: Image Storage & Result Storage
+    subtitle: Storage and Result Storage are used in thumbor to store source image
+      files and the result of transforming them, respectively. allowing thumbor to
+      support additional infrastructure services for storing images.
+  - category: loaders
+    title: Image Loaders
+    subtitle: Image loaders are responsible for retrieving source images to be used
+      in thumbor.
+  - category: detectors
+    title: Face and Feature Detectors
+    subtitle: Detectors allow thumbor to discover important points in the images and
+      crop around these points for better results
+  - category: url-and-framework
+    title: URL Generation & Framework Integration
+    subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
+      attack. Integrating thumbor images into web frameworks and libraries can make
+      using it much simpler.
+  - category: url-signers
+    title: Custom URL Signers
+    subtitle: thumbor allows using custom implementations of secure URLs signing.
+  - category: filters
+    title: Filters
+    subtitle: Filters kick in during thumbor's transformation phase and allow for
+      a wide range of different effects and features to resulting images.
 
 labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+  - label: thumbor7
+    image: https://www.python.org/static/favicon.ico
+    description: Projects with this label are compatible with thumbor 7
+  - label: python3
+    image: https://www.python.org/static/favicon.ico
+    description: Projects with this label are compatible with python 3
+  - label: tc
+    image: https://www.python.org/static/favicon.ico
+    description: Projects with this label are based on thumbor-community
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+  # Core
+  - name: thumbor
+    github_id: thumbor/thumbor
+    pypi_id: thumbor
+    labels: [python3, thumbor7]
+    category: core
+  - name: libthumbor
+    github_id: thumbor/libthumbor
+    pypi_id: libthumbor
+    labels: [python3, thumbor7]
+    category: core
+
+  # Storage & Result Storage
+  - name: thumbor-aws
+    github_id: thumbor/thumbor-aws
+    pypi_id: thumbor-aws
+    labels: [python3, thumbor7]
+    category: storage-and-result-storage
+  - name: thumbor_head
+    github_id: torsdag/thumbor_head
+    pypi_id: thumbor_head
+    labels: []
+    category: storage-and-result-storage
+
+
+  # Loaders
+  - name: thumbor-multidir
+    github_id: benneic/thumbor_multidir
+    pypi_id: thumbor-multidir
+    labels: []
+    category: storage-and-result-storage
+
+  # Detectors
+  - name: remotecv
+    github_id: thumbor/remotecv
+    pypi_id: remotecv
+    labels: [python3, thumbor7]
+    category: detectors
+
+  - name: thumbor_arcface
+    github_id: lanrenwo/thumbor_arcface
+    pypi_id: thumbor-arcface
+    labels: [python3, thumbor7]
+    category: detectors
+
+  # URL Signers
+  - name: thumbor-expire
+    github_id: HonQii/thumbor-expire
+    pypi_id: thumbor-expire
+    labels: [python3, thumbor7]
+    category: url-signers
+
+  # URL Generation And Frameworks
+  - name: django-thumbor
+    github_id: ricobl/django-thumbor
+    pypi_id: django-thumbor
+    labels: [python3, thumbor7]
+    category: url-and-framework
+  - name: thumbor-aliases
+    github_id: dgarana/thumbor-aliases
+    pypi_id: thumbor-aliases
+    labels: [tc]
+    category: url-and-framework
+  - name: thumbor_dash
+    github_id: mayoreee/thumbor_dash
+    pypi_id: thumbor_dash
+    labels: [python3, thumbor7]
+    category: url-and-framework
+
+  # Filters
+  - name: mg_thumbor
+    github_id: MindGeekOSS/mg_thumbor
+    pypi_id: mg-thumbor
+    description: A filter for clipping images differently than what thumbor does
+    labels: []
+    category: filters
+  - name: thumbor-icc
+    github_id: znerol/thumbor-icc
+    pypi_id: mg-thumbor
+    labels: [python3, thumbor7]
+    category: filters
