@@ -9,7 +9,6 @@ categories:
   - category: core
     title: Core Thumbor Projects
     subtitle: This category features the main projects in thumbor's org.
-
   - category: storage-and-result-storage
     title: Image Storage & Result Storage
     subtitle: Storage and Result Storage are used in thumbor to store source image
@@ -19,22 +18,42 @@ categories:
     title: Image Loaders
     subtitle: Image loaders are responsible for retrieving source images to be used
       in thumbor.
+  - category: engines
+    title: Imaging Engines
+    subtitle: Engines are the core of thumbor and responsible for transforming images
+      on-the-fly.
   - category: detectors
     title: Face and Feature Detectors
     subtitle: Detectors allow thumbor to discover important points in the images and
       crop around these points for better results
-  - category: url-and-framework
-    title: URL Generation & Framework Integration
+  - category: filters
+    title: Filters
+    subtitle: Filters kick in during thumbor's transformation phase and allow for
+      a wide range of different effects and features to resulting images.
+  - category: optimizers
+    title: Optimizers
+    subtitle: Optimizers run a myriad of tools to crush image sizes and improve quality
+      at the same time.
+  - category: metrics
+    title: Metrics Providers
+    subtitle: Metrics providers plugins connect metrics engines (such as Prometheus)
+      to thumbor metrics system for observability.
+  - category: python-url-and-framework
+    title: Python Integration & URL Generation
+    subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
+      attack. Integrating thumbor images into web frameworks and libraries can make
+      using it much simpler.
+  - category: js-url-and-framework
+    title: Javascript Integration & URL Generation
     subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
       attack. Integrating thumbor images into web frameworks and libraries can make
       using it much simpler.
   - category: url-signers
     title: Custom URL Signers
     subtitle: thumbor allows using custom implementations of secure URLs signing.
-  - category: filters
-    title: Filters
-    subtitle: Filters kick in during thumbor's transformation phase and allow for
-      a wide range of different effects and features to resulting images.
+  - category: others
+    title: Others
+    subtitle: projects that are very specific to a given functionality
 
 labels:
   - label: thumbor7
@@ -46,8 +65,24 @@ labels:
     description: Projects with this label are compatible with python 3
     url: https://www.python.org/downloads/
   - label: tc
-    image: https://www.python.org/static/favicon.ico
+    image: https://github.com/thumbor/awesome-thumbor/blob/main/thumbor-community.png?raw=true
     description: Projects with this label are based on thumbor-community
+    url: https://github.com/thumbor-community/
+  - label: django
+    image: https://www.djangoproject.com/favicon.ico
+    description: Projects that enhance thumbor integration to Django Web Framework
+    url: https://www.djangoproject.com
+  - label: typescript
+    image: https://www.typescriptlang.org/favicon.ico
+    description: Projects that enhance thumbor integration to Typescript
+    url: https://www.typescriptlang.org/
+  - label: node
+    image: https://nodejs.org/static/images/favicons/favicon-32x32.png
+    description: Projects that enhance thumbor integration to Node.JS
+    url: https://nodejs.org/en/
+  - label: react
+    image: https://pt-br.reactjs.org/favicon.ico
+    description: Projects that enhance thumbor integration to React JS Framework
 
 projects:
   # Core
@@ -73,14 +108,65 @@ projects:
     pypi_id: thumbor_head
     labels: []
     category: storage-and-result-storage
-
+  - name: thumbor-memcached
+    github_id: thumbor-community/thumbor-memcached
+    pypi_id: thumbor-memcached
+    labels: []
+    category: storage-and-result-storage
+  - name: tc_aws.storage
+    github_id: thumbor-community/aws
+    pypi_id: tc_aws
+    labels: []
+    category: storage-and-result-storage
+  - name: tc_redis.storage
+    github_id: thumbor-community/redis
+    pypi_id: tc_redis
+    labels: []
+    category: storage-and-result-storage
 
   # Loaders
   - name: thumbor-multidir
     github_id: benneic/thumbor_multidir
     pypi_id: thumbor-multidir
     labels: []
-    category: storage-and-result-storage
+    category: loaders
+  - name: thumbor-cassandra
+    github_id: glborges/thumbor-cassandra
+    pypi_id: thumbor-cassandra
+    labels: []
+    category: loaders
+  - name: thumbor_hbase
+    github_id: dhardy92/thumbor_hbase
+    pypi_id: thumbor_hbase
+    labels: []
+    category: loaders
+  - name: thumbor-request-modifier-http-loader
+    github_id: dffrntmedia/thumbor-request-modifier-http-loader
+    pypi_id: thumbor-request-modifier-http-loader
+    labels: []
+    category: loaders
+  - name: tc_aws.loaders
+    github_id: thumbor-community/aws
+    pypi_id: tc_aws
+    labels: []
+    category: loaders
+
+  # Engines
+  - name: thumbor-video-engine
+    github_id: theatlantic/thumbor-video-engine
+    pypi_id: thumbor-video-engine
+    labels: []
+    category: engines
+  - name: thumbor-wand-engine
+    github_id: scorphus/thumbor-wand-engine
+    pypi_id: thumbor-wand-engine
+    labels: []
+    category: engines
+  - name: opencv-engine
+    github_id: thumbor/opencv-engine
+    pypi_id: opencv-engine
+    labels: []
+    category: engines
 
   # Detectors
   - name: remotecv
@@ -88,36 +174,31 @@ projects:
     pypi_id: remotecv
     labels: [python3, thumbor7]
     category: detectors
-
   - name: thumbor_arcface
     github_id: lanrenwo/thumbor_arcface
     pypi_id: thumbor-arcface
     labels: [python3, thumbor7]
     category: detectors
-
-  # URL Signers
-  - name: thumbor-expire
-    github_id: HonQii/thumbor-expire
-    pypi_id: thumbor-expire
-    labels: [python3, thumbor7]
-    category: url-signers
-
-  # URL Generation And Frameworks
-  - name: django-thumbor
-    github_id: ricobl/django-thumbor
-    pypi_id: django-thumbor
-    labels: [python3, thumbor7]
-    category: url-and-framework
-  - name: thumbor-aliases
-    github_id: dgarana/thumbor-aliases
-    pypi_id: thumbor-aliases
-    labels: [tc]
-    category: url-and-framework
-  - name: thumbor_dash
-    github_id: mayoreee/thumbor_dash
-    pypi_id: thumbor_dash
-    labels: [python3, thumbor7]
-    category: url-and-framework
+  - name: thumbor_extras.detectors
+    github_id: imaus10/thumbor_extras
+    pypi_id: thumbor_extras
+    labels: []
+    category: detectors
+  - name: thumbor_rekognition
+    github_id: yu-liang-kono/thumbor_rekognition
+    pypi_id: thumbor_rekognition
+    labels: []
+    category: detectors
+  - name: remotecv-multidir
+    github_id: benneic/remotecv_multidir
+    pypi_id: remotecv-multidir
+    labels: []
+    category: detectors
+  - name: remotecv-redis
+    github_id: benneic/remotecv_redis
+    pypi_id: remotecv-redis
+    labels: []
+    category: detectors
 
   # Filters
   - name: mg_thumbor
@@ -131,3 +212,137 @@ projects:
     pypi_id: mg-thumbor
     labels: [python3, thumbor7]
     category: filters
+  - name: thumbor_extras.filters
+    github_id: imaus10/thumbor_extras
+    pypi_id: thumbor_extras
+    labels: []
+    category: filters
+  - name: thumbor-padding
+    github_id: arcivr/thumbor-padding
+    pypi_id: thumbor-padding
+    labels: []
+    category: filters
+  - name: thumbor-focus-filter
+    github_id: sport1online/thumbor-focus-filter
+    pypi_id: thumbor-focus-filter
+    labels: []
+    category: filters
+  - name: thumbor-distributed-collage-filter
+    github_id: globocom/thumbor-distributed-collage-filter
+    pypi_id: thumbor-distributed-collage-filter
+    labels: [python3, thumbor7]
+    category: filters
+
+  # Optimizers
+  - name: thumbor-plugins
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins
+    labels: []
+    category: optimizers
+
+  # Metrics Providers
+  - name: tc-prometheus
+    github_id: thumbor-community/prometheus
+    pypi_id: tc-prometheus
+    labels: []
+    category: metrics
+
+  # URL Signers
+  - name: thumbor-expire
+    github_id: HonQii/thumbor-expire
+    pypi_id: thumbor-expire
+    labels: [python3, thumbor7]
+    category: url-signers
+
+  # Python URL Generation And Frameworks
+  - name: django-thumbor
+    github_id: ricobl/django-thumbor
+    pypi_id: django-thumbor
+    docs_url: https://django-thumbor.readthedocs.io/en/latest/
+    labels: [python3, thumbor7, django]
+    category: python-url-and-framework
+  - name: django-thumborstorage
+    github_id: Starou/django-thumborstorage
+    pypi_id: django-thumborstorage
+    labels: [python3, thumbor7, django]
+    category: python-url-and-framework
+  - name: thumbor-aliases
+    github_id: dgarana/thumbor-aliases
+    pypi_id: thumbor-aliases
+    labels: [tc]
+    category: python-url-and-framework
+  - name: thumbor_dash
+    github_id: mayoreee/thumbor_dash
+    pypi_id: thumbor_dash
+    labels: [python3, thumbor7]
+    category: python-url-and-framework
+
+  # Javascript URL Generation And Frameworks
+  - name: thumbor-ts
+    github_id: Brettm12345/thumbor-ts
+    npm_id: thumbor-ts
+    labels: [node, typescript, thumbor7]
+    category: js-url-and-framework
+  - name: react-thumbor
+    github_id: clayrisser/react-thumbor
+    npm_id: react-thumbor
+    labels: [node, react, thumbor7]
+    category: js-url-and-framework
+  - name: ThumborUrlBuilder
+    github_id: policymic/thumbor#readme
+    npm_id: thumbor
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: thumbor-upload js client
+    github_id: handhead/thumbor-upload
+    npm_id: thumbor-upload
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: dek-thumbor
+    github_id: dekproject/thumbor
+    npm_id: '@dekproject/thumbor'
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: mtucourses-thumbor
+    github_id: Michigan-Tech-Courses/thumbor
+    npm_id: '@mtucourses/thumbor'
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: react-thumbor-img
+    github_id: ytase/react-thumbor-img
+    npm_id: react-thumbor-img
+    labels: [node, thumbor7, react]
+    category: js-url-and-framework
+  - name: ember-thumbor-images
+    github_id: abhilashlr/ember-thumbor-images
+    npm_id: ember-thumbor-images
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: nuxt-thumbor
+    github_id: itplusx/nuxt-thumbor
+    npm_id: '@itplusx/nuxt-thumbor'
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: vanilla-thumbor
+    github_id: borgespro/vanilla-thumbor-url-builder
+    npm_id: vanilla-thumbor-url-builder
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: thumbor-js-url-builder
+    github_id: heysafronov/thumbor-url-builder
+    npm_id: thumbor-js-url-builder
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+  - name: gatsby-plugin-thumbor
+    url: https://github.com/vtex/faststore/tree/master/packages/gatsby-plugin-thumbor
+    github_id: vtex/faststore
+    npm_id: '@vtex/gatsby-plugin-thumbor'
+    labels: [node, thumbor7]
+    category: js-url-and-framework
+
+  # Others
+  - name: tc_pdf
+    github_id: intellisense/tc_pdf
+    pypi_id: tc_pdf
+    labels: [python3, thumbor7, tc]
+    category: others

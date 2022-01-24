@@ -10,3 +10,6 @@ run: build
 
 build:
 	@best-of generate -g ${GITHUB_API_KEY} -l ${LIBRARIES_IO_KEY} ./projects.yaml
+
+lint:
+	@yamllint projects.yaml
