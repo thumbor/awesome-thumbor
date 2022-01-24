@@ -38,11 +38,13 @@ categories:
 
 labels:
   - label: thumbor7
-    image: https://www.python.org/static/favicon.ico
+    image: https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true
     description: Projects with this label are compatible with thumbor 7
+    url: https://github.com/thumbor/thumbor/releases/tag/7.0.0
   - label: python3
     image: https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true
     description: Projects with this label are compatible with python 3
+    url: https://www.python.org/downloads/
   - label: tc
     image: https://www.python.org/static/favicon.ico
     description: Projects with this label are based on thumbor-community
