@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-48-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-52-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/thumbor/awesome-thumbor/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/thumbor/awesome-thumbor?color=green&label=updated"></a>
 </p>
 
-This curated list contains 48 awesome open-source extensions to thumbor with a totat of ⭐18K stars. 
+This curated list contains 52 awesome open-source extensions to thumbor with a totat of ⭐19K stars. 
 
 Projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
 
@@ -32,9 +32,10 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - [Optimizers](#optimizers) _1 projects_
 - [Metrics Providers](#metrics-providers) _1 projects_
 - [Python Integration & URL Generation](#python-integration--url-generation) _4 projects_
-- [Javascript Integration & URL Generation](#javascript-integration--url-generation) _12 projects_
+- [Javascript Integration & URL Generation](#javascript-integration--url-generation) _13 projects_
+- [Java Integration & URL Generation](#java-integration--url-generation) _0 projects_
 - [Custom URL Signers](#custom-url-signers) _1 projects_
-- [Hosting Thumbor](#hosting-thumbor) _1 projects_
+- [Hosting Thumbor](#hosting-thumbor) _4 projects_
 - [Others](#others) _1 projects_
 
 ## Explanation
@@ -60,6 +61,7 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - <img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Node.JS
 - <img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to React JS Framework
 - <img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Docker empowered solutions for thumbor
+- <img src="https://www.java.com/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Java
 
 <br>
 
@@ -95,12 +97,12 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 
 <details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws</a></b> (🥈10 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS Extensions.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-aws) (🔀 1 · ⏱️ 23.01.2022):
+- [GitHub](https://github.com/thumbor/thumbor-aws) (🔀 1 · ⏱️ 25.01.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (📥 130 / month · ⏱️ 23.01.2022):
+- [PyPi](https://pypi.org/project/thumbor-aws) (📥 130 / month · ⏱️ 25.01.2022):
 	```
 	pip install thumbor-aws
 	```
@@ -312,7 +314,23 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	npm install @vtex/gatsby-plugin-thumbor
 	```
 </details>
-<details><summary><b><a href="https://github.com/Brettm12345/thumbor-ts">thumbor-ts</a></b> (🥇14 ·  ⭐ 3) - Immutable TypeScript client for building Thumbor URLs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.typescriptlang.org/"><code><img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/square/pollexor">pollexor</a></b> (🥇18 ·  ⭐ 620 · ➕) - Java client for the Thumbor image service which.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.typescriptlang.org/"><code><img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+
+- [GitHub](https://github.com/square/pollexor) (👨‍💻 15 · 🔀 84 · 📋 11 - 9% open · ⏱️ 24.01.2022):
+
+	```
+	git clone https://github.com/square/pollexor
+	```
+- [Maven](https://search.maven.org/artifact/com.squareup/pollexor) (📦 16 · ⏱️ 21.08.2015):
+	```
+	<dependency>
+		<groupId>com.squareup</groupId>
+		<artifactId>pollexor</artifactId>
+		<version>[VERSION]</version>
+	</dependency>
+	```
+</details>
+<details><summary><b><a href="https://github.com/Brettm12345/thumbor-ts">thumbor-ts</a></b> (🥈14 ·  ⭐ 3) - Immutable TypeScript client for building Thumbor URLs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.typescriptlang.org/"><code><img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/Brettm12345/thumbor-ts) (👨‍💻 5 · 🔀 1 · 📦 7 · 📋 3 - 66% open · ⏱️ 24.01.2022):
 
@@ -336,7 +354,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	npm install react-thumbor-img
 	```
 </details>
-<details><summary><b><a href="https://github.com/abhilashlr/ember-thumbor-images">ember-thumbor-images</a></b> (🥈10 ·  ⭐ 1) - This is an addon for using thumbor based images in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/abhilashlr/ember-thumbor-images">ember-thumbor-images</a></b> (🥉10 ·  ⭐ 1) - This is an addon for using thumbor based images in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/abhilashlr/ember-thumbor-images) (👨‍💻 6 · 📋 3 - 66% open · ⏱️ 25.10.2021):
 
@@ -374,13 +392,21 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 </details>
 <details><summary>Show 6 hidden projects...</summary>
 
-- <b><a href="https://github.com/policymic/thumbor#readme">ThumborUrlBuilder</a></b> (🥇14 ·  ⭐ 20 · 💀) - Client Thumbor for Node JS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
+- <b><a href="https://github.com/policymic/thumbor#readme">ThumborUrlBuilder</a></b> (🥈14 ·  ⭐ 20 · 💀) - Client Thumbor for Node JS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/heysafronov/thumbor-url-builder">thumbor-js-url-builder</a></b> (🥉9 ·  ⭐ 5 · 💀) - Thumbor client for JavaScript. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/borgespro/vanilla-thumbor-url-builder">vanilla-thumbor</a></b> (🥉8 ·  ⭐ 1 · 💀) - Thumbor client for RN. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/dekproject/thumbor">dek-thumbor</a></b> (🥉8 · 💀) - Thumbor interface plugin for DEK. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/clayrisser/react-thumbor">react-thumbor</a></b> (🥉6 · 💀) - react-thumbor. <code>❗Unlicensed</code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <code><img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/itplusx/nuxt-thumbor">nuxt-thumbor</a></b> (🥉6 · 💀) - Thumbor module for NuxtJS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 </details>
+<br>
+
+## Java Integration & URL Generation
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service attack. Integrating thumbor images into web frameworks and libraries can make using it much simpler._
+
 <br>
 
 ## Custom URL Signers
@@ -409,7 +435,7 @@ _thumbor allows using custom implementations of secure URLs signing._
 
 _Thumbor is very extensible and can be hosted in many different architectures and cloud providers._
 
-<details><summary><b><a href="https://github.com/MinimalCompact/thumbor">Minimal Compact Thumbor</a></b> (🥇17 ·  ⭐ 230 · ➕) - The quickest way to run thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/MinimalCompact/thumbor">Minimal Compact Thumbor</a></b> (🥈17 ·  ⭐ 230) - The quickest way to run thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/MinimalCompact/thumbor) (👨‍💻 21 · 🔀 60 · 📋 56 - 8% open · ⏱️ 09.01.2022):
 
@@ -420,6 +446,12 @@ _Thumbor is very extensible and can be hosted in many different architectures an
 	```
 	docker pull minimalcompact/thumbor
 	```
+</details>
+<details><summary>Show 3 hidden projects...</summary>
+
+- <b><a href="https://github.com/APSL/docker-thumbor">APSL Thumbor</a></b> (🥇20 ·  ⭐ 340 · 💀) - Docker image for thumbor. Detectors, optimizers, lazy.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/hey-car/thumbor">hey-car thumbor</a></b> (🥉8 ·  ⭐ 8 · 💀) - Yet another Thumbor Docker image. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/mvhirsch/thumbor-docker">thumbor-docker</a></b> (🥉7 ·  ⭐ 14 · 💀) - Unofficial thumbor docker image. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 </details>
 <br>
 

@@ -48,6 +48,11 @@ categories:
     subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
       attack. Integrating thumbor images into web frameworks and libraries can make
       using it much simpler.
+  - category: java-url-and-framework
+    title: Java Integration & URL Generation
+    subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
+      attack. Integrating thumbor images into web frameworks and libraries can make
+      using it much simpler.
   - category: url-signers
     title: Custom URL Signers
     subtitle: thumbor allows using custom implementations of secure URLs signing.
@@ -90,6 +95,9 @@ labels:
   - label: docker
     image: https://www.docker.com/favicon.ico
     description: Docker empowered solutions for thumbor
+  - label: java
+    image: https://www.java.com/favicon.ico
+    description: Integrates thumbor to Java
 
 projects:
   # Core
@@ -347,10 +355,32 @@ projects:
     labels: [node, thumbor7]
     category: js-url-and-framework
 
+  # Java URL Generation And Frameworks
+  - name: pollexor
+    github_id: square/pollexor
+    maven_id: com.squareup:pollexor
+    labels: [node, typescript, thumbor7]
+    category: js-url-and-framework
+
   # Hosting
   - name: Minimal Compact Thumbor
     github_id: MinimalCompact/thumbor
     dockerhub_id: minimalcompact/thumbor
+    labels: [docker]
+    category: hosting
+  - name: APSL Thumbor
+    github_id: APSL/docker-thumbor
+    dockerhub_id: apsl/thumbor
+    labels: [docker]
+    category: hosting
+  - name: thumbor-docker
+    github_id: mvhirsch/thumbor-docker
+    dockerhub_id: mvhirsch/thumbor
+    labels: [docker, thumbor7, python3]
+    category: hosting
+  - name: hey-car thumbor
+    github_id: hey-car/thumbor
+    dockerhub_id: heycar/thumbor/
     labels: [docker]
     category: hosting
 
