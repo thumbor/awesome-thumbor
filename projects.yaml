@@ -155,7 +155,7 @@ projects:
   - name: thumbor-video-engine
     github_id: theatlantic/thumbor-video-engine
     pypi_id: thumbor-video-engine
-    labels: []
+    labels: [python3, thumbor7]
     category: engines
   - name: thumbor-wand-engine
     github_id: scorphus/thumbor-wand-engine
