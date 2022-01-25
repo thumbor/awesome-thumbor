@@ -1,3 +1,4 @@
+---
 # Based on https://github.com/best-of-lists/best-of-update-action/blob/v0.8.5/workflows/update-best-of-list.yml
 name: update-best-of-list
 
@@ -5,20 +6,21 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "Version to use for this update"
+        description: Version to use for this update
         required: false
   schedule:
-    - cron: "0 18 * * 4" # Every thursday at 6pm
+    - cron: 0 */3 * * *
 
 env:
-  BRANCH_PREFIX: "update/"
-  DEFAULT_BRANCH: "main"
+  BRANCH_PREFIX: update/
+  DEFAULT_BRANCH: main
 
 jobs:
   update-best-of-list:
     runs-on: ubuntu-latest
     steps:
-      - if: ${{ github.event.inputs != null  &&  github.event.inputs.version != null }}
+      - if: ${{ github.event.inputs != null  &&  github.event.inputs.version != null
+          }}
         name: set-version-from-input
         run: echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
       - if: ${{ ! (env.VERSION != null && env.VERSION != '') }}
@@ -35,7 +37,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          branch: "${{ env.BRANCH_PREFIX }}${{ env.VERSION }}"
+          branch: ${{ env.BRANCH_PREFIX }}${{ env.VERSION }}
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -57,7 +59,7 @@ jobs:
           commit_message: Update best-of list for version ${{ env.VERSION  }}
           tagging_message: ${{ env.VERSION  }}
           skip_dirty_check: true
-          commit_options: "--allow-empty"
+          commit_options: --allow-empty
       - name: create-pull-request
         shell: bash
         run: |
@@ -74,7 +76,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.VERSION  }}
-          release_name: "Update: ${{ env.VERSION  }}"
-          body_path: "latest-changes.md"
+          release_name: 'Update: ${{ env.VERSION  }}'
+          body_path: latest-changes.md
           draft: true
           prerelease: false

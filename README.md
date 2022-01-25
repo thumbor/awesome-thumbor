@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-47-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-48-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/thumbor/awesome-thumbor/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/thumbor/awesome-thumbor?color=green&label=updated"></a>
 </p>
 
-This curated list contains 47 awesome open-source extensions to thumbor with a totat of ⭐18K stars. 
+This curated list contains 48 awesome open-source extensions to thumbor with a totat of ⭐18K stars. 
 
 Projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
 
@@ -34,6 +34,7 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - [Python Integration & URL Generation](#python-integration--url-generation) _4 projects_
 - [Javascript Integration & URL Generation](#javascript-integration--url-generation) _12 projects_
 - [Custom URL Signers](#custom-url-signers) _1 projects_
+- [Hosting Thumbor](#hosting-thumbor) _1 projects_
 - [Others](#others) _1 projects_
 
 ## Explanation
@@ -51,13 +52,14 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - ⏱️&nbsp; Last update timestamp on package manager
 - 📥&nbsp; Download count from package manager
 - 📦&nbsp; Number of dependent projects
-- <img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; Projects with this label are compatible with thumbor 7
-- <img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; Projects with this label are compatible with python 3
-- <img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor-community.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; Projects with this label are based on thumbor-community
-- <img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Projects that enhance thumbor integration to Django Web Framework
-- <img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Projects that enhance thumbor integration to Typescript
-- <img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13">&nbsp; Projects that enhance thumbor integration to Node.JS
-- <img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Projects that enhance thumbor integration to React JS Framework
+- <img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; Compatible with thumbor 7 and newer
+- <img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; Supports python 3
+- <img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor-community.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; thumbor-community project
+- <img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Django Web Framework
+- <img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Typescript
+- <img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Node.JS
+- <img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to React JS Framework
+- <img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Docker empowered solutions for thumbor
 
 <br>
 
@@ -146,14 +148,14 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	pip install thumbor-video-engine
 	```
 </details>
-<details><summary><b><a href="https://github.com/scorphus/thumbor-wand-engine">thumbor-wand-engine</a></b> (🥉6 ·  ⭐ 13) - ImageMagick engine for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/scorphus/thumbor-wand-engine">thumbor-wand-engine</a></b> (🥉7 ·  ⭐ 13) - ImageMagick engine for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/scorphus/thumbor-wand-engine) (👨‍💻 2 · 📋 5 - 40% open · ⏱️ 24.01.2022):
 
 	```
 	git clone https://github.com/scorphus/thumbor-wand-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-wand-engine) (⏱️ 18.03.2021):
+- [PyPi](https://pypi.org/project/thumbor-wand-engine) (📥 26 / month · ⏱️ 18.03.2021):
 	```
 	pip install thumbor-wand-engine
 	```
@@ -397,6 +399,26 @@ _thumbor allows using custom implementations of secure URLs signing._
 - [PyPi](https://pypi.org/project/thumbor-expire) (📥 21 / month · ⏱️ 09.05.2021):
 	```
 	pip install thumbor-expire
+	```
+</details>
+<br>
+
+## Hosting Thumbor
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Thumbor is very extensible and can be hosted in many different architectures and cloud providers._
+
+<details><summary><b><a href="https://github.com/MinimalCompact/thumbor">Minimal Compact Thumbor</a></b> (🥇17 ·  ⭐ 230 · ➕) - The quickest way to run thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/MinimalCompact/thumbor) (👨‍💻 21 · 🔀 60 · 📋 56 - 8% open · ⏱️ 09.01.2022):
+
+	```
+	git clone https://github.com/MinimalCompact/thumbor
+	```
+- [Docker Hub](https://hub.docker.com/r/minimalcompact/thumbor) (📥 2.7M · ⭐ 20 · ⏱️ 21.01.2022):
+	```
+	docker pull minimalcompact/thumbor
 	```
 </details>
 <br>

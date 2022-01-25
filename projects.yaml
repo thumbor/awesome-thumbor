@@ -51,6 +51,10 @@ categories:
   - category: url-signers
     title: Custom URL Signers
     subtitle: thumbor allows using custom implementations of secure URLs signing.
+  - category: hosting
+    title: Hosting Thumbor
+    subtitle: Thumbor is very extensible and can be hosted in many different architectures
+      and cloud providers.
   - category: others
     title: Others
     subtitle: projects that are very specific to a given functionality
@@ -58,31 +62,34 @@ categories:
 labels:
   - label: thumbor7
     image: https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true
-    description: Projects with this label are compatible with thumbor 7
+    description: Compatible with thumbor 7 and newer
     url: https://github.com/thumbor/thumbor/releases/tag/7.0.0
   - label: python3
     image: https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true
-    description: Projects with this label are compatible with python 3
+    description: Supports python 3
     url: https://www.python.org/downloads/
   - label: tc
     image: https://github.com/thumbor/awesome-thumbor/blob/main/thumbor-community.png?raw=true
-    description: Projects with this label are based on thumbor-community
+    description: thumbor-community project
     url: https://github.com/thumbor-community/
   - label: django
     image: https://www.djangoproject.com/favicon.ico
-    description: Projects that enhance thumbor integration to Django Web Framework
+    description: Integrates thumbor to Django Web Framework
     url: https://www.djangoproject.com
   - label: typescript
     image: https://www.typescriptlang.org/favicon.ico
-    description: Projects that enhance thumbor integration to Typescript
+    description: Integrates thumbor to Typescript
     url: https://www.typescriptlang.org/
   - label: node
     image: https://nodejs.org/static/images/favicons/favicon-32x32.png
-    description: Projects that enhance thumbor integration to Node.JS
+    description: Integrates thumbor to Node.JS
     url: https://nodejs.org/en/
   - label: react
     image: https://pt-br.reactjs.org/favicon.ico
-    description: Projects that enhance thumbor integration to React JS Framework
+    description: Integrates thumbor to React JS Framework
+  - label: docker
+    image: https://www.docker.com/favicon.ico
+    description: Docker empowered solutions for thumbor
 
 projects:
   # Core
@@ -339,6 +346,13 @@ projects:
     npm_id: '@vtex/gatsby-plugin-thumbor'
     labels: [node, thumbor7]
     category: js-url-and-framework
+
+  # Hosting
+  - name: Minimal Compact Thumbor
+    github_id: MinimalCompact/thumbor
+    dockerhub_id: minimalcompact/thumbor
+    labels: [docker]
+    category: hosting
 
   # Others
   - name: tc_pdf
