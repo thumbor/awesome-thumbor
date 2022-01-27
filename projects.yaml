@@ -53,6 +53,11 @@ categories:
     subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
       attack. Integrating thumbor images into web frameworks and libraries can make
       using it much simpler.
+  - category: ruby-url-and-framework
+    title: Ruby Integration & URL Generation
+    subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
+      attack. Integrating thumbor images into web frameworks and libraries can make
+      using it much simpler.
   - category: url-signers
     title: Custom URL Signers
     subtitle: thumbor allows using custom implementations of secure URLs signing.
@@ -98,6 +103,9 @@ labels:
   - label: java
     image: https://www.java.com/favicon.ico
     description: Integrates thumbor to Java
+  - label: ruby
+    image: https://rubygems.org/favicon.ico
+    description: Integrates thumbor to Ruby
 
 projects:
   # Core
@@ -361,6 +369,27 @@ projects:
     maven_id: com.squareup:pollexor
     labels: [node, typescript, thumbor7]
     category: js-url-and-framework
+
+  # Ruby URL Generation And Frameworks
+  - name: ruby-thumbor
+    github_id: thumbor/ruby-thumbor
+    labels: [ruby, thumbor7]
+    category: ruby-url-and-framework
+
+  - name: thumbor_rails
+    github_id: rafaelcaricio/thumbor_rails
+    labels: [ruby, thumbor7]
+    category: ruby-url-and-framework
+
+  - name: jekyll-thumbor
+    github_id: myles/jekyll-thumbor
+    labels: [ruby, thumbor7]
+    category: ruby-url-and-framework
+
+  - name: thumbor-versionable
+    github_id: vjustov/thumbor-versionable
+    labels: [ruby, thumbor7]
+    category: ruby-url-and-framework
 
   # Hosting
   - name: Minimal Compact Thumbor
