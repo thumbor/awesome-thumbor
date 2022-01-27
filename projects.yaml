@@ -367,8 +367,8 @@ projects:
   - name: pollexor
     github_id: square/pollexor
     maven_id: com.squareup:pollexor
-    labels: [node, typescript, thumbor7]
-    category: js-url-and-framework
+    labels: [java, thumbor7]
+    category: java-url-and-framework
 
   # Ruby URL Generation And Frameworks
   - name: ruby-thumbor
@@ -410,6 +410,11 @@ projects:
   - name: hey-car thumbor
     github_id: hey-car/thumbor
     dockerhub_id: heycar/thumbor/
+    labels: [docker]
+    category: hosting
+  - name: docker-alpine-vips
+    github_id: heynemann/docker-alpine-pyvips
+    dockerhub_id: thumbororg/alpine-pyvips
     labels: [docker]
     category: hosting
 
