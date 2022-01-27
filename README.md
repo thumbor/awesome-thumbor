@@ -75,7 +75,7 @@ _This category features the main projects in thumbor's org._
 
 <details><summary><b><a href="https://github.com/thumbor/thumbor">thumbor</a></b> (🥇34 ·  ⭐ 8.7K) - thumbor is an open-source photo thumbnail service by globo.com. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor) (👨‍💻 170 · 🔀 750 · 📦 290 · 📋 860 - 10% open · ⏱️ 26.01.2022):
+- [GitHub](https://github.com/thumbor/thumbor) (👨‍💻 170 · <span alt="test" title="test">🔀</span> 750 · 📦 290 · 📋 860 - 10% open · ⏱️ 26.01.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor
