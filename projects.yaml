@@ -121,7 +121,7 @@ projects:
     category: core
 
   # Storage & Result Storage
-  - name: thumbor-aws
+  - name: thumbor-aws S3 Storages and S3 Result Storage
     github_id: thumbor/thumbor-aws
     pypi_id: thumbor-aws
     labels: [python3, thumbor7]
@@ -148,6 +148,11 @@ projects:
     category: storage-and-result-storage
 
   # Loaders
+  - name: thumbor-aws S3 loader
+    github_id: thumbor/thumbor-aws
+    pypi_id: thumbor-aws
+    labels: [python3, thumbor7]
+    category: loaders
   - name: thumbor-multidir
     github_id: benneic/thumbor_multidir
     pypi_id: thumbor-multidir

@@ -9,7 +9,7 @@ on:
         description: Version to use for this update
         required: false
   schedule:
-    - cron: 0 */3 * * *
+    - cron: 0 20 * * *
 
 env:
   BRANCH_PREFIX: update/

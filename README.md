@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-57-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-58-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/thumbor/awesome-thumbor/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/thumbor/awesome-thumbor?color=green&label=updated"></a>
 </p>
 
-This curated list contains 57 awesome open-source extensions to thumbor with a totat of ⭐20K stars. 
+This curated list contains 58 awesome open-source extensions to thumbor with a totat of ⭐20K stars. 
 
 Projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
 
@@ -25,7 +25,7 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 
 - [Core Thumbor Projects](#core-thumbor-projects) _2 projects_
 - [Image Storage & Result Storage](#image-storage--result-storage) _5 projects_
-- [Image Loaders](#image-loaders) _5 projects_
+- [Image Loaders](#image-loaders) _6 projects_
 - [Imaging Engines](#imaging-engines) _3 projects_
 - [Face and Feature Detectors](#face-and-feature-detectors) _6 projects_
 - [Filters](#filters) _6 projects_
@@ -97,7 +97,7 @@ _This category features the main projects in thumbor's org._
 
 _Storage and Result Storage are used in thumbor to store source image files and the result of transforming them, respectively. allowing thumbor to support additional infrastructure services for storing images._
 
-<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws</a></b> (🥈10 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS Extensions.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws S3 Storages and S3 Result Storage</a></b> (🥈10 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-aws) (🔀 1 · ⏱️ 25.01.2022):
 
@@ -124,6 +124,18 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 
 _Image loaders are responsible for retrieving source images to be used in thumbor._
 
+<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws S3 loader</a></b> (🥈10 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+
+- [GitHub](https://github.com/thumbor/thumbor-aws) (🔀 1 · ⏱️ 25.01.2022):
+
+	```
+	git clone https://github.com/thumbor/thumbor-aws
+	```
+- [PyPi](https://pypi.org/project/thumbor-aws) (📥 150 / month · ⏱️ 25.01.2022):
+	```
+	pip install thumbor-aws
+	```
+</details>
 <details><summary>Show 5 hidden projects...</summary>
 
 - <b><a href="https://github.com/thumbor-community/aws">tc_aws.loaders</a></b> (🥇17 ·  ⭐ 140 · 💀) - Thumbor AWS extensions. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
@@ -480,7 +492,7 @@ _Thumbor is very extensible and can be hosted in many different architectures an
 - <b><a href="https://github.com/APSL/docker-thumbor">APSL Thumbor</a></b> (🥇20 ·  ⭐ 340 · 💀) - Docker image for thumbor. Detectors, optimizers, lazy.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/hey-car/thumbor">hey-car thumbor</a></b> (🥉8 ·  ⭐ 8 · 💀) - Yet another Thumbor Docker image. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/mvhirsch/thumbor-docker">thumbor-docker</a></b> (🥉7 ·  ⭐ 14 · 💀) - Unofficial thumbor docker image. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
-- <b><a href="https://github.com/heynemann/docker-alpine-pyvips">docker-alpine-vips</a></b> (🥉1 ·  ⭐ 1 · ➕) - Docker image for pyvips development using alpine. <code>❗Unlicensed</code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/heynemann/docker-alpine-pyvips">docker-alpine-vips</a></b> (🥉3 ·  ⭐ 1 · ➕) - Docker image for pyvips development using alpine. <code>❗Unlicensed</code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code>
 </details>
 <br>
 
