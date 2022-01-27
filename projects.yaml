@@ -120,7 +120,7 @@ projects:
     labels: [python3, thumbor7]
     category: core
 
-  # Storage & Result Storage
+    # Storage & Result Storage
   - name: thumbor-aws S3 Storages and S3 Result Storage
     github_id: thumbor/thumbor-aws
     pypi_id: thumbor-aws
@@ -147,7 +147,7 @@ projects:
     labels: []
     category: storage-and-result-storage
 
-  # Loaders
+    # Loaders
   - name: thumbor-aws S3 loader
     github_id: thumbor/thumbor-aws
     pypi_id: thumbor-aws
@@ -179,7 +179,7 @@ projects:
     labels: []
     category: loaders
 
-  # Engines
+    # Engines
   - name: thumbor-video-engine
     github_id: theatlantic/thumbor-video-engine
     pypi_id: thumbor-video-engine
@@ -196,7 +196,7 @@ projects:
     labels: []
     category: engines
 
-  # Detectors
+    # Detectors
   - name: remotecv
     github_id: thumbor/remotecv
     pypi_id: remotecv
@@ -228,7 +228,7 @@ projects:
     labels: []
     category: detectors
 
-  # Filters
+    # Filters
   - name: mg_thumbor
     github_id: MindGeekOSS/mg_thumbor
     pypi_id: mg-thumbor
@@ -261,28 +261,28 @@ projects:
     labels: [python3, thumbor7]
     category: filters
 
-  # Optimizers
+    # Optimizers
   - name: thumbor-plugins
     github_id: thumbor/thumbor-plugins
     pypi_id: thumbor-plugins
     labels: []
     category: optimizers
 
-  # Metrics Providers
+    # Metrics Providers
   - name: tc-prometheus
     github_id: thumbor-community/prometheus
     pypi_id: tc-prometheus
     labels: []
     category: metrics
 
-  # URL Signers
+    # URL Signers
   - name: thumbor-expire
     github_id: HonQii/thumbor-expire
     pypi_id: thumbor-expire
     labels: [python3, thumbor7]
     category: url-signers
 
-  # Python URL Generation And Frameworks
+    # Python URL Generation And Frameworks
   - name: django-thumbor
     github_id: ricobl/django-thumbor
     pypi_id: django-thumbor
@@ -305,7 +305,7 @@ projects:
     labels: [python3, thumbor7]
     category: python-url-and-framework
 
-  # Javascript URL Generation And Frameworks
+    # Javascript URL Generation And Frameworks
   - name: thumbor-ts
     github_id: Brettm12345/thumbor-ts
     npm_id: thumbor-ts
@@ -368,14 +368,14 @@ projects:
     labels: [node, thumbor7]
     category: js-url-and-framework
 
-  # Java URL Generation And Frameworks
+    # Java URL Generation And Frameworks
   - name: pollexor
     github_id: square/pollexor
     maven_id: com.squareup:pollexor
     labels: [java, thumbor7]
     category: java-url-and-framework
 
-  # Ruby URL Generation And Frameworks
+    # Ruby URL Generation And Frameworks
   - name: ruby-thumbor
     github_id: thumbor/ruby-thumbor
     labels: [ruby, thumbor7]
@@ -396,7 +396,7 @@ projects:
     labels: [ruby, thumbor7]
     category: ruby-url-and-framework
 
-  # Hosting
+    # Hosting
   - name: Minimal Compact Thumbor
     github_id: MinimalCompact/thumbor
     dockerhub_id: minimalcompact/thumbor
@@ -423,7 +423,7 @@ projects:
     labels: [docker]
     category: hosting
 
-  # Others
+    # Others
   - name: tc_pdf
     github_id: intellisense/tc_pdf
     pypi_id: tc_pdf
