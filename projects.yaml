@@ -262,9 +262,39 @@ projects:
     category: filters
 
     # Optimizers
-  - name: thumbor-plugins
+  - name: thumbor-plugins-gifv
     github_id: thumbor/thumbor-plugins
-    pypi_id: thumbor-plugins
+    pypi_id: thumbor-plugins-gifv
+    labels: []
+    category: optimizers
+  - name: thumbor-plugins-mozjpeg
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins-mozjpeg
+    labels: []
+    category: optimizers
+  - name: thumbor-plugins-jpegrecompress
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins-jpegrecompress
+    labels: []
+    category: optimizers
+  - name: thumbor-plugins-pngcrush
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins-pngcrush
+    labels: []
+    category: optimizers
+  - name: thumbor-plugins-jp2
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins-jp2
+    labels: []
+    category: optimizers
+  - name: thumbor-plugins-optipng
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins-optipng
+    labels: []
+    category: optimizers
+  - name: thumbor-plugins-pngquant
+    github_id: thumbor/thumbor-plugins
+    pypi_id: thumbor-plugins-pngquant
     labels: []
     category: optimizers
 
