@@ -80,7 +80,7 @@ _This category features the main projects in thumbor's org._
 	```
 	git clone https://github.com/thumbor/thumbor
 	```
-- [PyPi](https://pypi.org/project/thumbor) (📥 7.8K / month):
+- [PyPi](https://pypi.org/project/thumbor) (📥 7.7K / month):
 	```
 	pip install thumbor
 	```
@@ -104,7 +104,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (📥 190 / month):
+- [PyPi](https://pypi.org/project/thumbor-aws) (📥 200 / month):
 	```
 	pip install thumbor-aws
 	```
@@ -131,7 +131,7 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (📥 190 / month):
+- [PyPi](https://pypi.org/project/thumbor-aws) (📥 200 / month):
 	```
 	pip install thumbor-aws
 	```
@@ -159,7 +159,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	```
 	git clone https://github.com/scorphus/thumbor-wand-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-wand-engine) (📥 140 / month):
+- [PyPi](https://pypi.org/project/thumbor-wand-engine) (📥 110 / month):
 	```
 	pip install thumbor-wand-engine
 	```
@@ -184,7 +184,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (📥 1K / month):
+- [PyPi](https://pypi.org/project/remotecv) (📥 990 / month):
 	```
 	pip install remotecv
 	```
@@ -196,7 +196,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/lanrenwo/thumbor_arcface
 	```
-- [PyPi](https://pypi.org/project/thumbor-arcface) (📥 68 / month):
+- [PyPi](https://pypi.org/project/thumbor-arcface) (📥 78 / month):
 	```
 	pip install thumbor-arcface
 	```
@@ -244,7 +244,7 @@ _Filters kick in during thumbor's transformation phase and allow for a wide rang
 
 _Optimizers run a myriad of tools to crush image sizes and improve quality at the same time._
 
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-gifv</a></b> (🥇15 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-gifv</a></b> (🥇15 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor community. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
@@ -256,43 +256,43 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	pip install thumbor-plugins-gifv
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-mozjpeg</a></b> (🥇15 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-mozjpeg</a></b> (🥇15 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-mozjpeg) (📥 250 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-mozjpeg) (📥 260 / month):
 	```
 	pip install thumbor-plugins-mozjpeg
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngcrush</a></b> (🥇15 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngcrush</a></b> (🥇15 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (📥 170 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (📥 180 / month):
 	```
 	pip install thumbor-plugins-pngcrush
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (🥇15 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (🥇15 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor community. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-jp2) (📥 150 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-jp2) (📥 160 / month):
 	```
 	pip install thumbor-plugins-jp2
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-optipng</a></b> (🥇15 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-optipng</a></b> (🥇15 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
@@ -304,7 +304,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	pip install thumbor-plugins-optipng
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngquant</a></b> (🥇15 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngquant</a></b> (🥇15 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
@@ -316,7 +316,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	pip install thumbor-plugins-pngquant
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jpegrecompress</a></b> (🥉14 ·  ⭐ 28 · ➕) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jpegrecompress</a></b> (🥉14 ·  ⭐ 28) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 23% open · ⏱️ 24.02.2022):
 
@@ -355,7 +355,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/ricobl/django-thumbor
 	```
-- [PyPi](https://pypi.org/project/django-thumbor) (📥 3.2K / month):
+- [PyPi](https://pypi.org/project/django-thumbor) (📥 3.3K / month):
 	```
 	pip install django-thumbor
 	```
@@ -367,7 +367,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/mayoreee/thumbor_dash
 	```
-- [PyPi](https://pypi.org/project/thumbor_dash) (📥 630 / month):
+- [PyPi](https://pypi.org/project/thumbor_dash) (📥 640 / month):
 	```
 	pip install thumbor_dash
 	```
@@ -392,7 +392,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/vtex/faststore
 	```
-- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (📥 10K / month):
+- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (📥 11K / month):
 	```
 	npm install @vtex/gatsby-plugin-thumbor
 	```
@@ -416,7 +416,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/abhilashlr/ember-thumbor-images
 	```
-- [npm](https://www.npmjs.com/package/ember-thumbor-images) (📥 29 / month):
+- [npm](https://www.npmjs.com/package/ember-thumbor-images) (📥 30 / month):
 	```
 	npm install ember-thumbor-images
 	```
@@ -428,7 +428,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Michigan-Tech-Courses/thumbor
 	```
-- [npm](https://www.npmjs.com/package/@mtucourses/thumbor) (📥 990 / month):
+- [npm](https://www.npmjs.com/package/@mtucourses/thumbor) (📥 1.1K / month):
 	```
 	npm install @mtucourses/thumbor
 	```
@@ -453,7 +453,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 
 <details><summary><b><a href="https://github.com/square/pollexor">pollexor</a></b> (🥇14 ·  ⭐ 620) - Java client for the Thumbor image service which allows you.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://www.java.com/favicon.ico" style="display:inline;" width="13" height="13"></code> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/square/pollexor) (👨‍💻 15 · 🔀 82 · ⏱️ 24.01.2022):
+- [GitHub](https://github.com/square/pollexor) (👨‍💻 15 · 🔀 82 · ⏱️ 01.03.2022):
 
 	```
 	git clone https://github.com/square/pollexor
@@ -504,7 +504,7 @@ _thumbor allows using custom implementations of secure URLs signing._
 	```
 	git clone https://github.com/HonQii/thumbor-expire
 	```
-- [PyPi](https://pypi.org/project/thumbor-expire) (📥 84 / month):
+- [PyPi](https://pypi.org/project/thumbor-expire) (📥 91 / month):
 	```
 	pip install thumbor-expire
 	```
