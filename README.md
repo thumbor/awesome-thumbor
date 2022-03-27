@@ -80,14 +80,22 @@ _This category features the main projects in thumbor's org._
 	```
 	git clone https://github.com/thumbor/thumbor
 	```
-- [PyPi](https://pypi.org/project/thumbor) (📥 6.3K / month):
+- [PyPi](https://pypi.org/project/thumbor) (📥 5.4K / month):
 	```
 	pip install thumbor
 	```
 </details>
-<details><summary>Show 1 hidden projects...</summary>
+<details><summary><b><a href="https://github.com/thumbor/libthumbor">libthumbor</a></b> (🥉16 ·  ⭐ 56 · 📉) - Pythons extensions to thumbor. These are used to generate.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- <b><a href="https://github.com/thumbor/libthumbor">libthumbor</a></b> (🥉17 ·  ⭐ 56 · 💀) - Pythons extensions to thumbor. These are used to generate.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
+- [GitHub](https://github.com/thumbor/libthumbor) (👨‍💻 17 · 🔀 29 · 📋 15 - 20% open · ⏱️ 24.03.2022):
+
+	```
+	git clone https://github.com/thumbor/libthumbor
+	```
+- [PyPi](https://pypi.org/project/libthumbor) (📥 13K / month):
+	```
+	pip install libthumbor
+	```
 </details>
 <br>
 
@@ -97,26 +105,26 @@ _This category features the main projects in thumbor's org._
 
 _Storage and Result Storage are used in thumbor to store source image files and the result of transforming them, respectively. allowing thumbor to support additional infrastructure services for storing images._
 
-<details><summary><b><a href="https://github.com/thumbor-community/redis">tc_redis.storage</a></b> (🥈12 ·  ⭐ 10 · 📈) - Redis support. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor-community/redis">tc_redis.storage</a></b> (🥈12 ·  ⭐ 10) - Redis support. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor-community/redis) (👨‍💻 4 · 🔀 10 · 📋 4 - 75% open · ⏱️ 15.03.2022):
 
 	```
 	git clone https://github.com/thumbor-community/redis
 	```
-- [PyPi](https://pypi.org/project/tc_redis) (📥 410 / month):
+- [PyPi](https://pypi.org/project/tc_redis) (📥 460 / month):
 	```
 	pip install tc_redis
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws S3 Storages and S3 Result Storage</a></b> (🥉10 ·  ⭐ 3 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws S3 Storages and S3 Result Storage</a></b> (🥉9 ·  ⭐ 3 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-aws) (👨‍💻 2 · 🔀 6 · 📋 5 - 60% open · ⏱️ 16.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (📥 160 / month):
+- [PyPi](https://pypi.org/project/thumbor-aws) (📥 120 / month):
 	```
 	pip install thumbor-aws
 	```
@@ -125,7 +133,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 
 - <b><a href="https://github.com/thumbor-community/aws">tc_aws.storage</a></b> (🥇18 ·  ⭐ 140 · 💀) - Thumbor AWS extensions. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/thumbor-community/thumbor-memcached">thumbor-memcached</a></b> (🥉9 ·  ⭐ 3 · 💀) - thumbor-memcached provides storages using memcached as a.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/torsdag/thumbor_head">thumbor_head</a></b> (🥉3 · 💀) -  <code>❗Unlicensed</code>
+- <b><a href="https://github.com/torsdag/thumbor_head">thumbor_head</a></b> (🥉2 · 💀) -  <code>❗Unlicensed</code>
 </details>
 <br>
 
@@ -135,14 +143,14 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 
 _Image loaders are responsible for retrieving source images to be used in thumbor._
 
-<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws S3 loader</a></b> (🥈10 ·  ⭐ 3 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-aws">thumbor-aws S3 loader</a></b> (🥈9 ·  ⭐ 3 · 🐣) - thumbor-aws is a set of modern thumbor (7.0.0) AWS.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-aws) (👨‍💻 2 · 🔀 6 · 📋 5 - 60% open · ⏱️ 16.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (📥 160 / month):
+- [PyPi](https://pypi.org/project/thumbor-aws) (📥 120 / month):
 	```
 	pip install thumbor-aws
 	```
@@ -150,9 +158,9 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 <details><summary>Show 5 hidden projects...</summary>
 
 - <b><a href="https://github.com/thumbor-community/aws">tc_aws.loaders</a></b> (🥇18 ·  ⭐ 140 · 💀) - Thumbor AWS extensions. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/dhardy92/thumbor_hbase">thumbor_hbase</a></b> (🥈6 ·  ⭐ 9 · 💀) - hbase storage for thumbor.. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/benneic/thumbor_multidir">thumbor-multidir</a></b> (🥈6 · 💀) - Thumbor file loader plugin that search multiple paths on disk. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/dffrntmedia/thumbor-request-modifier-http-loader">thumbor-request-modifier-http-loader</a></b> (🥉5 ·  ⭐ 1 · 💀) - Custom HTTP loader for Thumbor which allows modifying.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
+- <b><a href="https://github.com/dhardy92/thumbor_hbase">thumbor_hbase</a></b> (🥉5 ·  ⭐ 9 · 💀) - hbase storage for thumbor.. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/dffrntmedia/thumbor-request-modifier-http-loader">thumbor-request-modifier-http-loader</a></b> (🥉4 ·  ⭐ 1 · 💀) - Custom HTTP loader for Thumbor which allows modifying.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
 - <b><a href="https://github.com/glborges/thumbor-cassandra">thumbor-cassandra</a></b> (🥉4 · 💀) - Thumbor plugin for Apache Cassandra. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
 <br>
@@ -170,7 +178,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	```
 	git clone https://github.com/scorphus/thumbor-wand-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-wand-engine) (📥 87 / month):
+- [PyPi](https://pypi.org/project/thumbor-wand-engine) (📥 58 / month):
 	```
 	pip install thumbor-wand-engine
 	```
@@ -188,14 +196,14 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 
 _Detectors allow thumbor to discover important points in the images and crop around these points for better results_
 
-<details><summary><b><a href="https://github.com/thumbor/remotecv">remotecv</a></b> (🥇18 ·  ⭐ 83 · 📈) - remotecv is an OpenCV server for facial and feature.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/thumbor/remotecv">remotecv</a></b> (🥇18 ·  ⭐ 83) - remotecv is an OpenCV server for facial and feature recognition. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/thumbor/remotecv) (👨‍💻 15 · 🔀 27 · 📦 25 · 📋 13 - 46% open · ⏱️ 25.02.2022):
+- [GitHub](https://github.com/thumbor/remotecv) (👨‍💻 15 · 🔀 27 · 📦 26 · 📋 13 - 46% open · ⏱️ 25.02.2022):
 
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (📥 1.4K / month):
+- [PyPi](https://pypi.org/project/remotecv) (📥 1.1K / month):
 	```
 	pip install remotecv
 	```
@@ -207,7 +215,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/lanrenwo/thumbor_arcface
 	```
-- [PyPi](https://pypi.org/project/thumbor-arcface) (📥 110 / month):
+- [PyPi](https://pypi.org/project/thumbor-arcface) (📥 77 / month):
 	```
 	pip install thumbor-arcface
 	```
@@ -215,8 +223,8 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 <details><summary>Show 4 hidden projects...</summary>
 
 - <b><a href="https://github.com/yu-liang-kono/thumbor_rekognition">thumbor_rekognition</a></b> (🥈9 ·  ⭐ 10 · 💀) - Enable thumbor to use AWS rekognition to run face.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/imaus10/thumbor_extras">thumbor_extras.detectors</a></b> (🥈7 · 💀) - Some useful extensions to thumbor - extra filters and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/benneic/remotecv_redis">remotecv-redis</a></b> (🥉6 · 💀) - Adds loading images directly from Redis storage i.e. from Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/imaus10/thumbor_extras">thumbor_extras.detectors</a></b> (🥈6 · 💀) - Some useful extensions to thumbor - extra filters and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/benneic/remotecv_redis">remotecv-redis</a></b> (🥉5 · 💀) - Adds loading images directly from Redis storage i.e. from Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/benneic/remotecv_multidir">remotecv-multidir</a></b> (🥉3 · 💀) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
 <br>
@@ -227,21 +235,21 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 
 _Filters kick in during thumbor's transformation phase and allow for a wide range of different effects and features to resulting images._
 
-<details><summary><b><a href="https://github.com/globocom/thumbor-distributed-collage-filter">thumbor-distributed-collage-filter</a></b> (🥈6 ·  ⭐ 2) - Distributed collage is a filter for creating side-by-.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/globocom/thumbor-distributed-collage-filter">thumbor-distributed-collage-filter</a></b> (🥇6 ·  ⭐ 2) - Distributed collage is a filter for creating side-by-.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/globocom/thumbor-distributed-collage-filter) (👨‍💻 3 · 🔀 1 · ⏱️ 02.02.2022):
 
 	```
 	git clone https://github.com/globocom/thumbor-distributed-collage-filter
 	```
-- [PyPi](https://pypi.org/project/thumbor-distributed-collage-filter) (📥 88 / month):
+- [PyPi](https://pypi.org/project/thumbor-distributed-collage-filter) (📥 64 / month):
 	```
 	pip install thumbor-distributed-collage-filter
 	```
 </details>
 <details><summary>Show 4 hidden projects...</summary>
 
-- <b><a href="https://github.com/imaus10/thumbor_extras">thumbor_extras.filters</a></b> (🥇7 · 💀) - Some useful extensions to thumbor - extra filters and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/imaus10/thumbor_extras">thumbor_extras.filters</a></b> (🥇6 · 💀) - Some useful extensions to thumbor - extra filters and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/znerol/thumbor-icc">thumbor-icc</a></b> (🥈4 ·  ⭐ 3 · 💀) - Thumbor filter to convert between ICC profiles. <code>❗Unlicensed</code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/sport1online/thumbor-focus-filter">thumbor-focus-filter</a></b> (🥈4 · 💀) - A Focus filter for Thumbor. <code>❗Unlicensed</code>
 - <b><a href="https://github.com/arcivr/thumbor-padding">thumbor-padding</a></b> (🥉2 ·  ⭐ 2) - Padding filter for thumbor. <code>❗Unlicensed</code>
@@ -261,79 +269,79 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-gifv) (📥 220 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-gifv) (📥 160 / month):
 	```
 	pip install thumbor-plugins-gifv
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-mozjpeg</a></b> (🥇15 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-mozjpeg</a></b> (🥈14 ·  ⭐ 29 · 📉) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-mozjpeg) (📥 170 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-mozjpeg) (📥 92 / month):
 	```
 	pip install thumbor-plugins-mozjpeg
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngcrush</a></b> (🥇15 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jpegrecompress</a></b> (🥈14 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (📥 170 / month):
-	```
-	pip install thumbor-plugins-pngcrush
-	```
-</details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jpegrecompress</a></b> (🥉14 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
-
-	```
-	git clone https://github.com/thumbor/thumbor-plugins
-	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-jpegrecompress) (📥 130 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-jpegrecompress) (📥 86 / month):
 	```
 	pip install thumbor-plugins-jpegrecompress
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (🥉14 ·  ⭐ 29 · 📉) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngcrush</a></b> (🥈14 ·  ⭐ 29 · 📉) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-jp2) (📥 130 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (📥 99 / month):
+	```
+	pip install thumbor-plugins-pngcrush
+	```
+</details>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (🥈14 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor community. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
+
+	```
+	git clone https://github.com/thumbor/thumbor-plugins
+	```
+- [PyPi](https://pypi.org/project/thumbor-plugins-jp2) (📥 75 / month):
 	```
 	pip install thumbor-plugins-jp2
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-optipng</a></b> (🥉14 ·  ⭐ 29 · 📉) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-optipng</a></b> (🥈14 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (📥 140 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (📥 78 / month):
 	```
 	pip install thumbor-plugins-optipng
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngquant</a></b> (🥉14 ·  ⭐ 29 · 📉) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngquant</a></b> (🥈14 ·  ⭐ 29) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (👨‍💻 13 · 🔀 18 · 📋 13 - 15% open · ⏱️ 17.03.2022):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngquant) (📥 140 / month):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngquant) (📥 78 / month):
 	```
 	pip install thumbor-plugins-pngquant
 	```
@@ -358,26 +366,26 @@ _Metrics providers plugins connect metrics engines (such as Prometheus) to thumb
 
 _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service attack. Integrating thumbor images into web frameworks and libraries can make using it much simpler._
 
-<details><summary><b><a href="https://github.com/ricobl/django-thumbor">django-thumbor</a></b> (🥇12 ·  ⭐ 87 · 📉) - A django app with templatetags for resizing images.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.djangoproject.com"><code><img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/ricobl/django-thumbor">django-thumbor</a></b> (🥇10 ·  ⭐ 87 · 📉) - A django app with templatetags for resizing images.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.djangoproject.com"><code><img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/ricobl/django-thumbor) (👨‍💻 7 · 🔀 20 · 📦 21 · 📋 10 - 10% open · ⏱️ 28.01.2022):
+- [GitHub](https://github.com/ricobl/django-thumbor) (👨‍💻 7 · 🔀 20 · 📋 10 - 10% open · ⏱️ 28.01.2022):
 
 	```
 	git clone https://github.com/ricobl/django-thumbor
 	```
-- [PyPi](https://pypi.org/project/django-thumbor) (📥 3.1K / month):
+- [PyPi](https://pypi.org/project/django-thumbor) (📥 2.8K / month):
 	```
 	pip install django-thumbor
 	```
 </details>
-<details><summary><b><a href="https://github.com/Starou/django-thumborstorage">django-thumborstorage</a></b> (🥈10 ·  ⭐ 17 · 📈) - Django storage backend for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.djangoproject.com"><code><img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/Starou/django-thumborstorage">django-thumborstorage</a></b> (🥈9 ·  ⭐ 17 · 📉) - Django storage backend for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://www.python.org/downloads/"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.djangoproject.com"><code><img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/Starou/django-thumborstorage) (👨‍💻 5 · 🔀 4 · 📦 5 · 📋 12 - 25% open · ⏱️ 08.03.2022):
+- [GitHub](https://github.com/Starou/django-thumborstorage) (👨‍💻 5 · 🔀 4 · 📋 12 - 25% open · ⏱️ 08.03.2022):
 
 	```
 	git clone https://github.com/Starou/django-thumborstorage
 	```
-- [PyPi](https://pypi.org/project/django-thumborstorage) (📥 820 / month):
+- [PyPi](https://pypi.org/project/django-thumborstorage) (📥 760 / month):
 	```
 	pip install django-thumborstorage
 	```
@@ -389,7 +397,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/mayoreee/thumbor_dash
 	```
-- [PyPi](https://pypi.org/project/thumbor_dash) (📥 740 / month):
+- [PyPi](https://pypi.org/project/thumbor_dash) (📥 420 / month):
 	```
 	pip install thumbor_dash
 	```
@@ -406,26 +414,38 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 
 _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service attack. Integrating thumbor images into web frameworks and libraries can make using it much simpler._
 
-<details><summary><b><a href="https://github.com/vtex/faststore">gatsby-plugin-thumbor</a></b> (🥇26 ·  ⭐ 91) - Digital commerce toolkit for frontend developers. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/vtex/faststore">gatsby-plugin-thumbor</a></b> (🥇26 ·  ⭐ 94) - Digital commerce toolkit for frontend developers. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/vtex/faststore) (👨‍💻 58 · 🔀 16 · 📦 33 · 📋 270 - 21% open · ⏱️ 22.03.2022):
+- [GitHub](https://github.com/vtex/faststore) (👨‍💻 58 · 🔀 17 · 📦 35 · 📋 270 - 21% open · ⏱️ 25.03.2022):
 
 	```
 	git clone https://github.com/vtex/faststore
 	```
-- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (📥 10K / month):
+- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (📥 11K / month):
 	```
 	npm install @vtex/gatsby-plugin-thumbor
 	```
 </details>
-<details><summary><b><a href="https://github.com/ytase/react-thumbor-img">react-thumbor-img</a></b> (🥇10 ·  ⭐ 7 · 💤) - A React Component that generates images with valid.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <code><img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/Brettm12345/thumbor-ts">thumbor-ts</a></b> (🥇11 ·  ⭐ 4 · 📈) - Immutable TypeScript client for building Thumbor URLs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.typescriptlang.org/"><code><img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/ytase/react-thumbor-img) (👨‍💻 6 · 🔀 4 · 📦 1 · ⏱️ 25.05.2021):
+- [GitHub](https://github.com/Brettm12345/thumbor-ts) (👨‍💻 5 · 🔀 1 · 📋 3 - 66% open · ⏱️ 26.03.2022):
+
+	```
+	git clone https://github.com/Brettm12345/thumbor-ts
+	```
+- [npm](https://www.npmjs.com/package/thumbor-ts) (📥 360 / month):
+	```
+	npm install thumbor-ts
+	```
+</details>
+<details><summary><b><a href="https://github.com/ytase/react-thumbor-img">react-thumbor-img</a></b> (🥈10 ·  ⭐ 7 · 💤) - A React Component that generates images with valid.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <code><img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/ytase/react-thumbor-img) (👨‍💻 6 · 🔀 4 · ⏱️ 25.05.2021):
 
 	```
 	git clone https://github.com/ytase/react-thumbor-img
 	```
-- [npm](https://www.npmjs.com/package/react-thumbor-img) (📥 2K / month):
+- [npm](https://www.npmjs.com/package/react-thumbor-img) (📥 1.9K / month):
 	```
 	npm install react-thumbor-img
 	```
@@ -437,26 +457,25 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/abhilashlr/ember-thumbor-images
 	```
-- [npm](https://www.npmjs.com/package/ember-thumbor-images) (📥 35 / month):
+- [npm](https://www.npmjs.com/package/ember-thumbor-images) (📥 36 / month):
 	```
 	npm install ember-thumbor-images
 	```
 </details>
 <details><summary><b><a href="https://github.com/Michigan-Tech-Courses/thumbor">mtucourses-thumbor</a></b> (🥉3 ·  ⭐ 2) - a URL builder for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/Michigan-Tech-Courses/thumbor) (👨‍💻 2 · 🔀 1 · 📦 1 · ⏱️ 09.09.2021):
+- [GitHub](https://github.com/Michigan-Tech-Courses/thumbor) (👨‍💻 2 · 🔀 1 · ⏱️ 09.09.2021):
 
 	```
 	git clone https://github.com/Michigan-Tech-Courses/thumbor
 	```
-- [npm](https://www.npmjs.com/package/@mtucourses/thumbor) (📥 1K / month):
+- [npm](https://www.npmjs.com/package/@mtucourses/thumbor) (📥 970 / month):
 	```
 	npm install @mtucourses/thumbor
 	```
 </details>
-<details><summary>Show 7 hidden projects...</summary>
+<details><summary>Show 6 hidden projects...</summary>
 
-- <b><a href="https://github.com/Brettm12345/thumbor-ts">thumbor-ts</a></b> (🥇10 ·  ⭐ 4) - Immutable TypeScript client for building Thumbor URLs. <code>❗Unlicensed</code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://www.typescriptlang.org/"><code><img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/heysafronov/thumbor-url-builder">thumbor-js-url-builder</a></b> (🥈5 ·  ⭐ 5 · 💀) - Thumbor client for JavaScript. <code>❗Unlicensed</code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/handhead/thumbor-upload">thumbor-upload js client</a></b> (🥈5 ·  ⭐ 1 · 💀) - Thumbor Upload. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/itplusx/nuxt-thumbor">nuxt-thumbor</a></b> (🥈5 · 💀) - Thumbor module for NuxtJS. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a href="https://nodejs.org/en/"><code><img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
@@ -498,7 +517,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 
 <details><summary><b><a href="https://github.com/thumbor/ruby-thumbor">ruby-thumbor</a></b> (🥇18 ·  ⭐ 43) - ruby-thumbor is the client library to thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/thumbor/ruby-thumbor) (👨‍💻 16 · 🔀 12 · 📦 49 · ⏱️ 30.01.2022):
+- [GitHub](https://github.com/thumbor/ruby-thumbor) (👨‍💻 16 · 🔀 12 · 📦 50 · ⏱️ 30.01.2022):
 
 	```
 	git clone https://github.com/thumbor/ruby-thumbor
@@ -525,7 +544,7 @@ _thumbor allows using custom implementations of secure URLs signing._
 	```
 	git clone https://github.com/HonQii/thumbor-expire
 	```
-- [PyPi](https://pypi.org/project/thumbor-expire) (📥 120 / month):
+- [PyPi](https://pypi.org/project/thumbor-expire) (📥 59 / month):
 	```
 	pip install thumbor-expire
 	```
@@ -538,7 +557,7 @@ _thumbor allows using custom implementations of secure URLs signing._
 
 _Thumbor is very extensible and can be hosted in many different architectures and cloud providers._
 
-<details><summary><b><a href="https://github.com/MinimalCompact/thumbor">Minimal Compact Thumbor</a></b> (🥈17 ·  ⭐ 240) - The quickest way to run thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/MinimalCompact/thumbor">Minimal Compact Thumbor</a></b> (🥈17 ·  ⭐ 230) - The quickest way to run thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/MinimalCompact/thumbor) (👨‍💻 21 · 🔀 59 · 📋 56 - 8% open · ⏱️ 09.01.2022):
 
