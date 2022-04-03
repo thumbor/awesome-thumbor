@@ -47,10 +47,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: update-best-of-list
         shell: bash
-        run: make setup-ci build
+        run: make setup-ci
         env:
           LIBRARIES_IO_KEY: ${{ secrets.LIBRARIES_KEY }}
           GITHUB_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+      - name: build-best-of-list
+        shell: bash
+        run: best-of generate -g ${{secrets.GITHUB_TOKEN}} -l ${{secrets.LIBRARIES_KEY}}
+          ./projects.yaml
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
