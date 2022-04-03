@@ -46,10 +46,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: update-best-of-list
-        uses: best-of-lists/best-of-update-action@v0.8.5
+        shell: bash
+        run: make setup build
         with:
-          libraries_key: ${{ secrets.LIBRARIES_KEY }}
-          github_key: ${{ secrets.GITHUB_TOKEN }}
+          LIBRARIES_IO_KEY: ${{ secrets.LIBRARIES_KEY }}
+          GITHUB_API_KEY: ${{ secrets.GITHUB_TOKEN }}
       - name: push-update
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
