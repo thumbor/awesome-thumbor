@@ -1,5 +1,5 @@
 setup:
-	@pip install markdown-server best-of
+	@pip install markdown-server git+https://github.com/heynemann/best-of-generator.git
 
 watch:
 	@ls projects.yaml | entr make run
