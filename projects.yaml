@@ -452,6 +452,10 @@ projects:
     dockerhub_id: thumbororg/alpine-pyvips
     labels: [docker]
     category: hosting
+  - name: Thumbor S3 Docker
+    github_id: beeyev/thumbor-s3-docker
+    dockerhub_id: beeyev/thumbor-s3
+    labels: [docker, thumbor7, python3]
 
     # Others
   - name: tc_pdf
