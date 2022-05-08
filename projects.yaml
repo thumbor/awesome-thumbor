@@ -456,6 +456,7 @@ projects:
     github_id: beeyev/thumbor-s3-docker
     dockerhub_id: beeyev/thumbor-s3
     labels: [docker, thumbor7, python3]
+    category: hosting
 
     # Others
   - name: tc_pdf
