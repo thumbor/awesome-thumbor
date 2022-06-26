@@ -43,6 +43,11 @@ categories:
     subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
       attack. Integrating thumbor images into web frameworks and libraries can make
       using it much simpler.
+  - category: php-url-and-framework
+    title: PHP Integration & URL Generation
+    subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
+      attack. Integrating thumbor images into web frameworks and libraries can make
+      using it much simpler.
   - category: js-url-and-framework
     title: Javascript Integration & URL Generation
     subtitle: thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service
@@ -86,6 +91,14 @@ labels:
     image: https://www.djangoproject.com/favicon.ico
     description: Integrates thumbor to Django Web Framework
     url: https://www.djangoproject.com
+  - label: php
+    image: https://www.php.net/favicon.ico
+    description: Integrates thumbor to PHP
+    url: https://www.php.net/
+  - label: laravel
+    image: https://laravel.com/img/favicon/favicon.ico
+    description: Integrates thumbor to Laravel Framework
+    url: https://laravel.com/
   - label: typescript
     image: https://www.typescriptlang.org/favicon.ico
     description: Integrates thumbor to Typescript
@@ -335,6 +348,13 @@ projects:
     labels: [python3, thumbor7]
     category: python-url-and-framework
 
+    # PHP URL Generation And Frameworks
+  - name: thumbor-php
+    github_id: beeyev/thumbor-php
+    docs_url: https://github.com/beeyev/thumbor-php/
+    labels: [PHP, thumbor7, laravel]
+    category: php-url-and-framework
+    
     # Javascript URL Generation And Frameworks
   - name: thumbor-ts
     github_id: Brettm12345/thumbor-ts
