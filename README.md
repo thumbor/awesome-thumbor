@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-65-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-66-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/thumbor/awesome-thumbor/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/thumbor/awesome-thumbor?color=green&label=updated"></a>
 </p>
 
-This curated list contains 65 awesome open-source extensions to thumbor with a totat of ⭐11K stars. 
+This curated list contains 66 awesome open-source extensions to thumbor with a totat of ⭐11K stars. 
 
 Projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
 
@@ -32,6 +32,7 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - [Optimizers](#optimizers) _7 projects_
 - [Metrics Providers](#metrics-providers) _1 projects_
 - [Python Integration & URL Generation](#python-integration--url-generation) _4 projects_
+- [PHP Integration & URL Generation](#php-integration--url-generation) _1 projects_
 - [Javascript Integration & URL Generation](#javascript-integration--url-generation) _12 projects_
 - [Java Integration & URL Generation](#java-integration--url-generation) _1 projects_
 - [Ruby Integration & URL Generation](#ruby-integration--url-generation) _4 projects_
@@ -58,6 +59,8 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - <img src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; Supports python 3
 - <img src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor-community.png?raw=true" style="display:inline;" width="13" height="13">&nbsp; thumbor-community project
 - <img src="https://www.djangoproject.com/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Django Web Framework
+- <img src="https://www.php.net/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to PHP
+- <img src="https://laravel.com/img/favicon/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Laravel Framework
 - <img src="https://www.typescriptlang.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Typescript
 - <img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to Node.JS
 - <img src="https://pt-br.reactjs.org/favicon.ico" style="display:inline;" width="13" height="13">&nbsp; Integrates thumbor to React JS Framework
@@ -112,7 +115,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 320 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 02.05.2022</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 310 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 02.05.2022</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -150,7 +153,7 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 320 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 02.05.2022</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 310 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 02.05.2022</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -178,7 +181,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	```
 	git clone https://github.com/theatlantic/thumbor-video-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 67 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 16.02.2022</span>):
+- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 65 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 16.02.2022</span>):
 	```
 	pip install thumbor-video-engine
 	```
@@ -214,7 +217,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 500 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 24.05.2022</span>):
+- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 480 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 24.05.2022</span>):
 	```
 	pip install remotecv
 	```
@@ -242,7 +245,7 @@ _Filters kick in during thumbor's transformation phase and allow for a wide rang
 	```
 	git clone https://github.com/arcivr/thumbor-padding
 	```
-- [PyPi](https://pypi.org/project/thumbor-padding) (<span title="Download count from package manager" alt="Download count from package manager">📥 15 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 08.08.2018</span>):
+- [PyPi](https://pypi.org/project/thumbor-padding) (<span title="Download count from package manager" alt="Download count from package manager">📥 13 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 08.08.2018</span>):
 	```
 	pip install thumbor-padding
 	```
@@ -276,7 +279,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-gifv</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇14</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
@@ -288,7 +291,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 </details>
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-mozjpeg</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
@@ -300,7 +303,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 </details>
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jpegrecompress</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
@@ -312,19 +315,19 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 </details>
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngcrush</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 26 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 22.02.2022</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 22 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 22.02.2022</span>):
 	```
 	pip install thumbor-plugins-pngcrush
 	```
 </details>
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
@@ -336,7 +339,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 </details>
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-pngquant</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
@@ -348,12 +351,12 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 </details>
 <details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-optipng</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉11</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 30</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
+- [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 13</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 19</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 19 - 31% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.03.2022</span>):
 
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 16 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 22.02.2022</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 15 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 22.02.2022</span>):
 	```
 	pip install thumbor-plugins-optipng
 	```
@@ -385,7 +388,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/ricobl/django-thumbor
 	```
-- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 2.3K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 7</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 10.12.2017</span>):
+- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 2.2K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 7</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 10.12.2017</span>):
 	```
 	pip install django-thumbor
 	```
@@ -397,12 +400,12 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Starou/django-thumborstorage
 	```
-- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 540 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 1</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.04.2022</span>):
+- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 510 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 1</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.04.2022</span>):
 	```
 	pip install django-thumborstorage
 	```
 </details>
-<details><summary><b><a href="https://github.com/mayoreee/thumbor_dash">thumbor_dash</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈13</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 3</span> · <span title="Project is trending down" alt="Project is trending down">📉</span>) - A Thumbor server extension for DASH. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a alt="Supports python 3" title="Supports python 3" href="https://www.python.org/downloads/"><code><img alt="Supports python 3" title="Supports python 3" src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/mayoreee/thumbor_dash">thumbor_dash</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈13</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 3</span>) - A Thumbor server extension for DASH. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a alt="Supports python 3" title="Supports python 3" href="https://www.python.org/downloads/"><code><img alt="Supports python 3" title="Supports python 3" src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/mayoreee/thumbor_dash) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 6</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 11.06.2022</span>):
 
@@ -420,6 +423,22 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 </details>
 <br>
 
+## PHP Integration & URL Generation
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Service attack. Integrating thumbor images into web frameworks and libraries can make using it much simpler._
+
+<details><summary><b><a href="https://github.com/beeyev/thumbor-php">thumbor-php</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇6</span> · <span title="Project was recently added" alt="Project was recently added">➕</span>) - PHP implementation of URL generator for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a alt="Integrates thumbor to PHP" title="Integrates thumbor to PHP" href="https://www.php.net/"><code><img alt="Integrates thumbor to PHP" title="Integrates thumbor to PHP" src="https://www.php.net/favicon.ico" style="display:inline;" width="13" height="13"></code></a> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a alt="Integrates thumbor to Laravel Framework" title="Integrates thumbor to Laravel Framework" href="https://laravel.com/"><code><img alt="Integrates thumbor to Laravel Framework" title="Integrates thumbor to Laravel Framework" src="https://laravel.com/img/favicon/favicon.ico" style="display:inline;" width="13" height="13"></code></a></summary>
+
+- [GitHub](https://github.com/beeyev/thumbor-php) (<span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 27.06.2022</span>):
+
+	```
+	git clone https://github.com/beeyev/thumbor-php
+	```
+</details>
+<br>
+
 ## Javascript Integration & URL Generation
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
@@ -428,12 +447,12 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 
 <details><summary><b><a href="https://github.com/vtex/faststore">gatsby-plugin-thumbor</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇26</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 110</span>) - Digital commerce toolkit for frontend developers. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a alt="Integrates thumbor to Node.JS" title="Integrates thumbor to Node.JS" href="https://nodejs.org/en/"><code><img alt="Integrates thumbor to Node.JS" title="Integrates thumbor to Node.JS" src="https://nodejs.org/static/images/favicons/favicon-32x32.png" style="display:inline;" width="13" height="13"></code></a> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
-- [GitHub](https://github.com/vtex/faststore) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 62</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 25</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 280 - 25% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 23.06.2022</span>):
+- [GitHub](https://github.com/vtex/faststore) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 62</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 25</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 5</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 280 - 25% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 27.06.2022</span>):
 
 	```
 	git clone https://github.com/vtex/faststore
 	```
-- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 3.8K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.04.2022</span>):
+- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 3.6K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.04.2022</span>):
 	```
 	npm install @vtex/gatsby-plugin-thumbor
 	```
@@ -457,7 +476,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/abhilashlr/ember-thumbor-images
 	```
-- [npm](https://www.npmjs.com/package/ember-thumbor-images) (<span title="Download count from package manager" alt="Download count from package manager">📥 5 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 10.10.2021</span>):
+- [npm](https://www.npmjs.com/package/ember-thumbor-images) (<span title="Download count from package manager" alt="Download count from package manager">📥 4 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 10.10.2021</span>):
 	```
 	npm install ember-thumbor-images
 	```
@@ -469,7 +488,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Michigan-Tech-Courses/thumbor
 	```
-- [npm](https://www.npmjs.com/package/@mtucourses/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 900 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.09.2021</span>):
+- [npm](https://www.npmjs.com/package/@mtucourses/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 840 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.09.2021</span>):
 	```
 	npm install @mtucourses/thumbor
 	```
@@ -582,7 +601,7 @@ _Thumbor is very extensible and can be hosted in many different architectures an
 	```
 	git clone https://github.com/beeyev/thumbor-s3-docker
 	```
-- [Docker Hub](https://hub.docker.com/r/beeyev/thumbor-s3) (<span title="Download count from package manager" alt="Download count from package manager">📥 84</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 25.06.2022</span>):
+- [Docker Hub](https://hub.docker.com/r/beeyev/thumbor-s3) (<span title="Download count from package manager" alt="Download count from package manager">📥 85</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 25.06.2022</span>):
 	```
 	docker pull beeyev/thumbor-s3
 	```
