@@ -119,7 +119,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 340 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 01.02.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 330 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 01.02.2023</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -131,7 +131,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 	```
 	git clone https://github.com/thumbor-community/redis
 	```
-- [PyPi](https://pypi.org/project/tc_redis) (<span title="Download count from package manager" alt="Download count from package manager">📥 390 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 31.10.2023</span>):
+- [PyPi](https://pypi.org/project/tc_redis) (<span title="Download count from package manager" alt="Download count from package manager">📥 380 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 31.10.2023</span>):
 	```
 	pip install tc_redis
 	```
@@ -168,14 +168,14 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 340 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 01.02.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 330 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 01.02.2023</span>):
 	```
 	pip install thumbor-aws
 	```
 </details>
 <details><summary>Show 4 hidden projects...</summary>
 
-- <b><a href="https://github.com/dhardy92/thumbor_hbase">thumbor_hbase</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈9</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 9</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - hbase storage for thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/dhardy92/thumbor_hbase">thumbor_hbase</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈8</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 9</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - hbase storage for thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/dffrntmedia/thumbor-request-modifier">thumbor-request-modifier-http-loader</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉6</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 1</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Custom HTTP loader for Thumbor which allows modifying.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code>
 - <b><a href="https://github.com/benneic/thumbor_multidir">thumbor-multidir</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉6</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Thumbor file loader plugin that search multiple paths.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/glborges/thumbor-cassandra">thumbor-cassandra</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉6</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Thumbor plugin for Apache Cassandra. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
@@ -220,7 +220,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 830 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 7</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 16.11.2023</span>):
+- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 820 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 7</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 16.11.2023</span>):
 	```
 	pip install remotecv
 	```
@@ -323,7 +323,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 49 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 48 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-pngcrush
 	```
@@ -335,7 +335,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 72 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 04.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 64 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 04.11.2023</span>):
 	```
 	pip install thumbor-plugins-optipng
 	```
@@ -352,7 +352,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	pip install thumbor-plugins-pngquant
 	```
 </details>
-<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉15</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 33</span> · <span title="Project is trending down" alt="Project is trending down">📉</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor-plugins">thumbor-plugins-jp2</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉15</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 33</span>) - Optimizers and filters contributed by the Thumbor.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor-plugins) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 14</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 20</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 17</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 
@@ -434,7 +434,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Brettm12345/thumbor-ts
 	```
-- [npm](https://www.npmjs.com/package/thumbor-ts) (<span title="Download count from package manager" alt="Download count from package manager">📥 63 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 4</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 10.10.2020</span>):
+- [npm](https://www.npmjs.com/package/thumbor-ts) (<span title="Download count from package manager" alt="Download count from package manager">📥 58 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 4</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 10.10.2020</span>):
 	```
 	npm install thumbor-ts
 	```
@@ -487,9 +487,9 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 <details><summary>Show 4 hidden projects...</summary>
 
 - <b><a href="https://github.com/thumbor/ruby-thumbor">ruby-thumbor</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇15</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 46</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - ruby-thumbor is the client library to thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img alt="Integrates thumbor to Ruby" title="Integrates thumbor to Ruby" src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
-- <b><a href="https://github.com/myles/jekyll-thumbor">jekyll-thumbor</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈9</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - A Jekyll template tag for Thumbor imaging service. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img alt="Integrates thumbor to Ruby" title="Integrates thumbor to Ruby" src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
-- <b><a href="https://github.com/rafaelcaricio/thumbor_rails">thumbor_rails</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉8</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 33</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Make easier to generate and manage Thumbor URLs in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img alt="Integrates thumbor to Ruby" title="Integrates thumbor to Ruby" src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
+- <b><a href="https://github.com/rafaelcaricio/thumbor_rails">thumbor_rails</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈7</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 33</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Make easier to generate and manage Thumbor URLs in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img alt="Integrates thumbor to Ruby" title="Integrates thumbor to Ruby" src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 - <b><a href="https://github.com/vjustov/thumbor-versionable">thumbor-versionable</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉6</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 10</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - A Thumbor client that lets you specify versions of.. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code> <code><img alt="Integrates thumbor to Ruby" title="Integrates thumbor to Ruby" src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
+- <b><a href="https://github.com/myles/jekyll-thumbor">jekyll-thumbor</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉6</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - A Jekyll template tag for Thumbor imaging service. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img alt="Integrates thumbor to Ruby" title="Integrates thumbor to Ruby" src="https://rubygems.org/favicon.ico" style="display:inline;" width="13" height="13"></code> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a>
 </details>
 <br>
 
@@ -568,7 +568,7 @@ _projects that are very specific to a given functionality_
 	```
 	git clone https://github.com/intellisense/tc_pdf
 	```
-- [PyPi](https://pypi.org/project/tc_pdf) (<span title="Download count from package manager" alt="Download count from package manager">📥 51 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 14.12.2017</span>):
+- [PyPi](https://pypi.org/project/tc_pdf) (<span title="Download count from package manager" alt="Download count from package manager">📥 49 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 14.12.2017</span>):
 	```
 	pip install tc_pdf
 	```
