@@ -107,7 +107,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 900 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 14.03.2024</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 880 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 14.03.2024</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -145,7 +145,7 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 900 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 14.03.2024</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 880 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 14.03.2024</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -210,7 +210,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/lanrenwo/thumbor_arcface
 	```
-- [PyPi](https://pypi.org/project/thumbor-arcface) (<span title="Download count from package manager" alt="Download count from package manager">📥 37 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 22.08.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-arcface) (<span title="Download count from package manager" alt="Download count from package manager">📥 40 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 22.08.2023</span>):
 	```
 	pip install thumbor-arcface
 	```
@@ -266,7 +266,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 530 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 04.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 520 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 04.11.2023</span>):
 	```
 	pip install thumbor-plugins-optipng
 	```
@@ -278,7 +278,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-mozjpeg) (<span title="Download count from package manager" alt="Download count from package manager">📥 32 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-mozjpeg) (<span title="Download count from package manager" alt="Download count from package manager">📥 33 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-mozjpeg
 	```
@@ -302,7 +302,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 56 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 61 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-pngcrush
 	```
@@ -314,7 +314,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-jp2) (<span title="Download count from package manager" alt="Download count from package manager">📥 28 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-jp2) (<span title="Download count from package manager" alt="Download count from package manager">📥 30 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-jp2
 	```
@@ -358,7 +358,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/ricobl/django-thumbor
 	```
-- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 4.1K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 28.04.2024</span>):
+- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 4K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 28.04.2024</span>):
 	```
 	pip install django-thumbor
 	```
