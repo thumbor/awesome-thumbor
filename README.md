@@ -102,12 +102,12 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 
 <details><summary><b><a href="https://github.com/thumbor-community/aws">tc_aws.storage</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇16</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 160</span> · <span title="Project is trending up" alt="Project is trending up">📈</span>) - Thumbor AWS extensions. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor-community/aws) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 41</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 75</span> · <span title="Download count from package manager" alt="Download count from package manager">📥 14</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 97 - 3% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 18.08.2025</span>):
+- [GitHub](https://github.com/thumbor-community/aws) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 41</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 75</span> · <span title="Download count from package manager" alt="Download count from package manager">📥 14</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 98 - 3% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 21.08.2025</span>):
 
 	```
 	git clone https://github.com/thumbor-community/aws
 	```
-- [PyPi](https://pypi.org/project/tc_aws) (<span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 18.08.2025</span>):
+- [PyPi](https://pypi.org/project/tc_aws) (<span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 21.08.2025</span>):
 	```
 	pip install tc_aws
 	```
@@ -140,12 +140,12 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 
 <details><summary><b><a href="https://github.com/thumbor-community/aws">tc_aws.loaders</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇16</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 160</span> · <span title="Project is trending up" alt="Project is trending up">📈</span>) - Thumbor AWS extensions. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/thumbor-community/aws) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 41</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 75</span> · <span title="Download count from package manager" alt="Download count from package manager">📥 14</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 97 - 3% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 18.08.2025</span>):
+- [GitHub](https://github.com/thumbor-community/aws) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 41</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 75</span> · <span title="Download count from package manager" alt="Download count from package manager">📥 14</span> · <span title="Issue count from GitHub" alt="Issue count from GitHub">📋 98 - 3% open</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 21.08.2025</span>):
 
 	```
 	git clone https://github.com/thumbor-community/aws
 	```
-- [PyPi](https://pypi.org/project/tc_aws) (<span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 18.08.2025</span>):
+- [PyPi](https://pypi.org/project/tc_aws) (<span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 21.08.2025</span>):
 	```
 	pip install tc_aws
 	```
@@ -430,7 +430,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/vtex/faststore
 	```
-- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 900 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.08.2022</span>):
+- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 920 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.08.2022</span>):
 	```
 	npm install @vtex/gatsby-plugin-thumbor
 	```
@@ -510,7 +510,7 @@ _Thumbor is very extensible and can be hosted in many different architectures an
 
 <details><summary><b><a href="https://github.com/MinimalCompact/thumbor">Minimal Compact Thumbor</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥈18</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 320</span> · <span title="Inactive project (6 months no activity)" alt="Inactive project (6 months no activity)">💤</span>) - The quickest way to run thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img alt="Docker empowered solutions for thumbor" title="Docker empowered solutions for thumbor" src="https://www.docker.com/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
-- [GitHub](https://github.com/MinimalCompact/thumbor) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 28</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 89</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 02.10.2024</span>):
+- [GitHub](https://github.com/MinimalCompact/thumbor) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 28</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 90</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 02.10.2024</span>):
 
 	```
 	git clone https://github.com/MinimalCompact/thumbor
