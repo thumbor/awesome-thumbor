@@ -83,7 +83,7 @@ _This category features the main projects in thumbor's org._
 	```
 	git clone https://github.com/thumbor/thumbor
 	```
-- [PyPi](https://pypi.org/project/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 18K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 50</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 15.05.2025</span>):
+- [PyPi](https://pypi.org/project/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 19K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 50</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 15.05.2025</span>):
 	```
 	pip install thumbor
 	```
@@ -119,7 +119,7 @@ _Storage and Result Storage are used in thumbor to store source image files and 
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 1K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 26.08.2025</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 1.1K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 26.08.2025</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -157,7 +157,7 @@ _Image loaders are responsible for retrieving source images to be used in thumbo
 	```
 	git clone https://github.com/thumbor/thumbor-aws
 	```
-- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 1K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 26.08.2025</span>):
+- [PyPi](https://pypi.org/project/thumbor-aws) (<span title="Download count from package manager" alt="Download count from package manager">📥 1.1K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 26.08.2025</span>):
 	```
 	pip install thumbor-aws
 	```
@@ -184,7 +184,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	```
 	git clone https://github.com/theatlantic/thumbor-video-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 900 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.07.2024</span>):
+- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 940 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.07.2024</span>):
 	```
 	pip install thumbor-video-engine
 	```
@@ -192,7 +192,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 <details><summary>Show 2 hidden projects...</summary>
 
 - <b><a href="https://github.com/thumbor/opencv-engine">opencv-engine</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇14</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 26</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Thumbor engine for the openCV imaging library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/scorphus/thumbor-wand-engine">thumbor-wand-engine</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉8</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 17</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - ImageMagick engine for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/scorphus/thumbor-wand-engine">thumbor-wand-engine</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉9</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 17</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - ImageMagick engine for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
 <br>
 
@@ -209,7 +209,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 12K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.05.2025</span>):
+- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 13K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.05.2025</span>):
 	```
 	pip install remotecv
 	```
@@ -254,7 +254,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-gifv) (<span title="Download count from package manager" alt="Download count from package manager">📥 15K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 1</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 08.01.2024</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-gifv) (<span title="Download count from package manager" alt="Download count from package manager">📥 16K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 1</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 08.01.2024</span>):
 	```
 	pip install thumbor-plugins-gifv
 	```
@@ -266,7 +266,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 430 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 04.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-optipng) (<span title="Download count from package manager" alt="Download count from package manager">📥 440 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 04.11.2023</span>):
 	```
 	pip install thumbor-plugins-optipng
 	```
@@ -278,7 +278,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 51 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngcrush) (<span title="Download count from package manager" alt="Download count from package manager">📥 50 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-pngcrush
 	```
@@ -302,7 +302,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-pngquant) (<span title="Download count from package manager" alt="Download count from package manager">📥 88 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-pngquant) (<span title="Download count from package manager" alt="Download count from package manager">📥 89 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-pngquant
 	```
@@ -326,7 +326,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 	```
 	git clone https://github.com/thumbor/thumbor-plugins
 	```
-- [PyPi](https://pypi.org/project/thumbor-plugins-jpegrecompress) (<span title="Download count from package manager" alt="Download count from package manager">📥 18 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
+- [PyPi](https://pypi.org/project/thumbor-plugins-jpegrecompress) (<span title="Download count from package manager" alt="Download count from package manager">📥 16 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 07.11.2023</span>):
 	```
 	pip install thumbor-plugins-jpegrecompress
 	```
@@ -339,7 +339,7 @@ _Optimizers run a myriad of tools to crush image sizes and improve quality at th
 
 _Metrics providers plugins connect metrics engines (such as Prometheus) to thumbor metrics system for observability._
 
-<details><summary><b><a href="https://github.com/thumbor-community/prometheus">tc-prometheus</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇11</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 8</span>) - Thumbor Prometheus metrics extension. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor-community/prometheus">tc-prometheus</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 8</span>) - Thumbor Prometheus metrics extension. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor-community/prometheus) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 5</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 9</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.04.2025</span>):
 
@@ -366,7 +366,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/ricobl/django-thumbor
 	```
-- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 2.3K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 28.04.2024</span>):
+- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 2.4K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 28.04.2024</span>):
 	```
 	pip install django-thumbor
 	```
@@ -378,7 +378,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Starou/django-thumborstorage
 	```
-- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 86 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
+- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 82 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
 	```
 	pip install django-thumborstorage
 	```
