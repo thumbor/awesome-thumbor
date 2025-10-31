@@ -184,7 +184,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	```
 	git clone https://github.com/theatlantic/thumbor-video-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 950 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.07.2024</span>):
+- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 940 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.07.2024</span>):
 	```
 	pip install thumbor-video-engine
 	```
@@ -292,7 +292,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Starou/django-thumborstorage
 	```
-- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 120 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
+- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 99 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
 	```
 	pip install django-thumborstorage
 	```
