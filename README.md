@@ -83,7 +83,7 @@ _This category features the main projects in thumbor's org._
 	```
 	git clone https://github.com/thumbor/thumbor
 	```
-- [PyPi](https://pypi.org/project/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 17K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 50</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 15.05.2025</span>):
+- [PyPi](https://pypi.org/project/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 16K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 50</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 15.05.2025</span>):
 	```
 	pip install thumbor
 	```
@@ -209,7 +209,7 @@ _Detectors allow thumbor to discover important points in the images and crop aro
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 11K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.05.2025</span>):
+- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 10K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.05.2025</span>):
 	```
 	pip install remotecv
 	```
