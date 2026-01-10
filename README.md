@@ -83,7 +83,7 @@ _This category features the main projects in thumbor's org._
 	```
 	git clone https://github.com/thumbor/thumbor
 	```
-- [PyPi](https://pypi.org/project/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 8.4K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 50</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 15.05.2025</span>):
+- [PyPi](https://pypi.org/project/thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 8.3K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 50</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 15.05.2025</span>):
 	```
 	pip install thumbor
 	```
@@ -184,7 +184,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 	```
 	git clone https://github.com/theatlantic/thumbor-video-engine
 	```
-- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 730 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.07.2024</span>):
+- [PyPi](https://pypi.org/project/thumbor-video-engine) (<span title="Download count from package manager" alt="Download count from package manager">📥 700 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 09.07.2024</span>):
 	```
 	pip install thumbor-video-engine
 	```
@@ -272,7 +272,7 @@ _Metrics providers plugins connect metrics engines (such as Prometheus) to thumb
 	```
 	git clone https://github.com/thumbor-community/prometheus
 	```
-- [PyPi](https://pypi.org/project/tc-prometheus) (<span title="Download count from package manager" alt="Download count from package manager">📥 800 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.04.2025</span>):
+- [PyPi](https://pypi.org/project/tc-prometheus) (<span title="Download count from package manager" alt="Download count from package manager">📥 770 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.04.2025</span>):
 	```
 	pip install tc-prometheus
 	```
@@ -292,7 +292,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/ricobl/django-thumbor
 	```
-- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 1.9K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 28.04.2024</span>):
+- [PyPi](https://pypi.org/project/django-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 1.8K / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 28.04.2024</span>):
 	```
 	pip install django-thumbor
 	```
@@ -304,7 +304,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Starou/django-thumborstorage
 	```
-- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 74 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
+- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 91 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
 	```
 	pip install django-thumborstorage
 	```
@@ -341,7 +341,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/vtex/faststore
 	```
-- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 410 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.08.2022</span>):
+- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 420 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.08.2022</span>):
 	```
 	npm install @vtex/gatsby-plugin-thumbor
 	```
