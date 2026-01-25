@@ -272,7 +272,7 @@ _Metrics providers plugins connect metrics engines (such as Prometheus) to thumb
 	```
 	git clone https://github.com/thumbor-community/prometheus
 	```
-- [PyPi](https://pypi.org/project/tc-prometheus) (<span title="Download count from package manager" alt="Download count from package manager">📥 850 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.04.2025</span>):
+- [PyPi](https://pypi.org/project/tc-prometheus) (<span title="Download count from package manager" alt="Download count from package manager">📥 870 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 2</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 05.04.2025</span>):
 	```
 	pip install tc-prometheus
 	```
@@ -304,7 +304,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/Starou/django-thumborstorage
 	```
-- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 62 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
+- [PyPi](https://pypi.org/project/django-thumborstorage) (<span title="Download count from package manager" alt="Download count from package manager">📥 61 / month</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 20.05.2025</span>):
 	```
 	pip install django-thumborstorage
 	```
