@@ -484,3 +484,6 @@ projects:
     pypi_id: tc_pdf
     labels: [python3, thumbor7, tc]
     category: others
+  - name: thumbor-url-explorer
+    github_id: tlgimenes/thumbor-url-explorer
+    category: others
