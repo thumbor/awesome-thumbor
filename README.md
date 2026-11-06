@@ -170,7 +170,7 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 <details><summary>Show 2 hidden projects...</summary>
 
 - <b><a href="https://github.com/thumbor/opencv-engine">opencv-engine</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉12</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 26</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - Thumbor engine for the openCV imaging library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/scorphus/thumbor-wand-engine">thumbor-wand-engine</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉6</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 18</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - ImageMagick engine for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/scorphus/thumbor-wand-engine">thumbor-wand-engine</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥉8</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 18</span> · <span title="Dead project (12 months no activity)" alt="Dead project (12 months no activity)">💀</span>) - ImageMagick engine for Thumbor. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
 <br>
 
@@ -180,14 +180,14 @@ _Engines are the core of thumbor and responsible for transforming images on-the-
 
 _Detectors allow thumbor to discover important points in the images and crop around these points for better results_
 
-<details><summary><b><a href="https://github.com/thumbor/remotecv">remotecv</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇16</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 99</span> · <span title="Project is trending down" alt="Project is trending down">📉</span>) - remotecv is an OpenCV server for facial and feature.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a alt="Supports python 3" title="Supports python 3" href="https://www.python.org/downloads/"><code><img alt="Supports python 3" title="Supports python 3" src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
+<details><summary><b><a href="https://github.com/thumbor/remotecv">remotecv</a></b> (<span title="Combined project-quality score" alt="Combined project-quality score">🥇19</span> · <span title="Star count from GitHub" alt="Star count from GitHub"> ⭐ 99</span>) - remotecv is an OpenCV server for facial and feature.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <a alt="Supports python 3" title="Supports python 3" href="https://www.python.org/downloads/"><code><img alt="Supports python 3" title="Supports python 3" src="https://github.com/thumbor/awesome-thumbor/blob/main/python3.png?raw=true" style="display:inline;" width="13" height="13"></code></a> <a alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" href="https://github.com/thumbor/thumbor/releases/tag/7.0.0"><code><img alt="Compatible with thumbor 7 and newer" title="Compatible with thumbor 7 and newer" src="https://github.com/thumbor/awesome-thumbor/blob/main/thumbor.png?raw=true" style="display:inline;" width="13" height="13"></code></a></summary>
 
 - [GitHub](https://github.com/thumbor/remotecv) (<span title="Contributors count from GitHub" alt="Contributors count from GitHub">👨‍💻 25</span> · <span title="Fork count from GitHub" alt="Fork count from GitHub">🔀 34</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 53</span>):
 
 	```
 	git clone https://github.com/thumbor/remotecv
 	```
-- [PyPi](https://pypi.org/project/remotecv) (<span title="Number of dependent projects" alt="Number of dependent projects">📦 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 23.10.2026</span>):
+- [PyPi](https://pypi.org/project/remotecv) (<span title="Download count from package manager" alt="Download count from package manager">📥 3.2K / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 3</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 23.10.2026</span>):
 	```
 	pip install remotecv
 	```
@@ -367,7 +367,7 @@ _thumbor secure URLs ensure your thumbor service does not suffer a Denial-Of-Ser
 	```
 	git clone https://github.com/vtex/faststore
 	```
-- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 590 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.08.2022</span>):
+- [npm](https://www.npmjs.com/package/@vtex/gatsby-plugin-thumbor) (<span title="Download count from package manager" alt="Download count from package manager">📥 290 / month</span> · <span title="Number of dependent projects" alt="Number of dependent projects">📦 6</span> · <span title="Last update timestamp on package manager" alt="Last update timestamp on package manager">⏱️ 17.08.2022</span>):
 	```
 	npm install @vtex/gatsby-plugin-thumbor
 	```
